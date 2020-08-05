@@ -20,6 +20,18 @@ let Eminescu = [
     raspuns: ["dorul"],
     r: "Cum ea pe coate-și răzima<br>Visând ale ei tâmple<br>De <b>dorul</b> lui și inima<br>Și sufletu-i se împle.<br>"
   },
+
+  {
+    versuri: "Ea îl privea cu un surâs,<br>El ........-n oglindă,<br>Căci o urma adânc în vis<br>De suflet să se prindă<br>",
+    raspuns: ["tremura"],
+    r: "Ea îl privea cu un surâs,<br>El <b>tremura</b>-n oglindă,<br>Căci o urma adânc în vis<br>De suflet să se prindă<br>"
+  },
+
+  {
+    versuri: "Și pas cu pas pe urma ei<br>Alunecă-n odaie,<br>Țesând cu recile-i scântei<br>O ........ de văpaie.<br>",
+    raspuns: ["mreajă"],
+    r: "Și pas cu pas pe urma ei<br>Alunecă-n odaie,<br>Țesând cu recile-i scântei<br>O <b>mreajă</b> de văpaie.<br>"
+  },
   ],
 
   //medium array
@@ -37,7 +49,20 @@ let Eminescu = [
     versuri: "Cum ea pe coate-și răzima<br>Visând ale ei tâmple<br>De ........ lui și ........<br>Și sufletu-i se împle.<br>",
     raspuns: ["dorul", "inima"],
     r: "Cum ea pe coate-și răzima<br>Visând ale ei tâmple<br>De <b>dorul</b> lui și <b>inima</b><br>Și sufletu-i se împle.<br>"
-  },],
+  },
+
+  {
+    versuri: "Și pas cu pas pe urma ei<br>Alunecă-n odaie,<br>........ cu recile-i scântei<br>O ........ de văpaie.<br>",
+    raspuns: ["Țesând", "mreajă"],
+    r: "Și pas cu pas pe urma ei<br>Alunecă-n odaie,<br><b>Țesând</b> cu recile-i scântei<br>O <b>mreajă</b> de văpaie.<br>"
+  },
+  {
+    versuri: "Ea îl privea cu un surâs,<br>El ........-n oglindă,<br>Căci o urma ........ în vis<br>De suflet să se prindă<br>",
+    raspuns: ["tremura", "adânc"],
+    r: "Ea îl privea cu un surâs,<br>El <b>tremura</b>-n oglindă,<br>Căci o urma <b>adânc</b> în vis<br>De suflet să se prindă<br>"
+  },
+
+  ],
 
   //hard array
   [{
@@ -54,7 +79,20 @@ let Eminescu = [
     versuri: "Cum ea pe ........-și răzima<br>Visând ale ei tâmple<br>De ........ lui și ........<br>Și sufletu-i se împle.<br>",
     raspuns: ["coate","dorul", "inima"],
     r: "Cum ea pe <b>coate</b>-și răzima<br>Visând ale ei tâmple<br>De <b>dorul</b> lui și <b>inima</b><br>Și sufletu-i se împle.<br>"
-  },],
+  },
+
+  {
+    versuri: "Și pas cu pas pe urma ei<br>Alunecă-n odaie,<br>........ cu recile-i ........<br>O ........ de văpaie.<br>",
+    raspuns: ["Țesând","scântei", "mreajă"],
+    r: "Și pas cu pas pe urma ei<br>Alunecă-n odaie,<br><b>Țesând</b> cu recile-i <b>scântei</b><br>O <b>mreajă</b> de văpaie.<br>"
+  },
+
+  {
+    versuri: "Ea îl privea cu un surâs,<br>El ........-n oglindă,<br>Căci o urma ........ în ........<br>De ........ să se prindă<br>",
+    raspuns: ["tremura", "adânc", "vis", "suflet"],
+    r: "Ea îl privea cu un surâs,<br>El <b>tremura</b>-n oglindă,<br>Căci o urma <b>adânc</b> în <b>vis</b><br>De <b>suflet</b> să se prindă<br>"
+  },
+  ],
 ],
 
 //Floare Albastra
@@ -207,6 +245,7 @@ function verif(){
 const removeElements = (elms) => elms.forEach(el => el.remove());
 
 function newGame(){
+	document.getElementsByClassName("raspuns")[0].value="";
 	let clone = document.getElementsByClassName("raspuns")[0].cloneNode( true );
 
 	removeElements( document.querySelectorAll(".raspuns") );
@@ -217,8 +256,7 @@ function newGame(){
 	document.getElementById("wrong-ans").style.display="none";
 	let arrLength = authorArray[operaIndex][grade][randomNum].raspuns.length;
 	flow();
-    for(let i=0;i<arrLength;i++)
-    	document.getElementsByClassName("raspuns")[i].value="";
+
 	document.getElementById("cont-vers").style.display="flex";
 
 }
