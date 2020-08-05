@@ -7,18 +7,53 @@ let Eminescu = [
     versuri: "Nu caut vorbe pe ........, </br>Nici știu cum aș începe -</br>Deși vorbești pe înțeles,</br>Eu nu te pot pricepe;</br>",
     raspuns: ["ales"],
     r: "Nu caut vorbe pe <b>ales</b>, </br>Nici știu cum aș începe -</br>Deși vorbești pe înțeles,</br>Eu nu te pot pricepe;</br>"
-  },],
+  },
+
+  {
+    versuri: "Privea în zare cum pe mări<br>Răsare și străluce,<br>Pe mișcătoarele ........<br>Corăbii negre duce.<br>",
+    raspuns: ["cărări"],
+    r: "Privea în zare cum pe mări<br>Răsare și străluce,<br>Pe mișcătoarele <b>cărări</b><br>Corăbii negre duce.<br>"
+  },
+  
+  {
+    versuri: "Cum ea pe coate-și răzima<br>Visând ale ei tâmple<br>De ........ lui și inima<br>Și sufletu-i se împle.<br>",
+    raspuns: ["dorul"],
+    r: "Cum ea pe coate-și răzima<br>Visând ale ei tâmple<br>De <b>dorul</b> lui și inima<br>Și sufletu-i se împle.<br>"
+  },
+  ],
 
   //medium array
   [{
     versuri: "Nu caut vorbe pe ........, </br>Nici știu cum aș ........ -</br>Deși vorbești pe înțeles,</br>Eu nu te pot pricepe;</br>",
-    raspuns: ["ales", "începe"]
+    raspuns: ["ales", "începe"],
+    r: "Nu caut vorbe pe <b>ales</b>, </br>Nici știu cum aș <b>începe</b> -</br>Deși vorbești pe înțeles,</br>Eu nu te pot pricepe;</br>"
+  },
+  {
+    versuri: "Privea în zare cum pe mări<br>Răsare și străluce,<br>Pe mișcătoarele ........<br>........negre duce.<br>",
+    raspuns: ["cărări", "corăbii"],
+    r: "Privea în zare cum pe mări<br>Răsare și străluce,<br>Pe mișcătoarele <b>cărări</b><br><b>Corăbii</b> negre duce.<br>"
+  },
+  {
+    versuri: "Cum ea pe coate-și răzima<br>Visând ale ei tâmple<br>De ........ lui și ........<br>Și sufletu-i se împle.<br>",
+    raspuns: ["dorul", "inima"],
+    r: "Cum ea pe coate-și răzima<br>Visând ale ei tâmple<br>De <b>dorul</b> lui și <b>inima</b><br>Și sufletu-i se împle.<br>"
   },],
 
   //hard array
   [{
     versuri: "Nu caut vorbe pe ........, </br>Nici știu cum aș ........ -</br>Deși vorbești pe ........,</br>Eu nu te pot pricepe;</br>",
-    raspuns: ["ales", "începe", "înțeles"]
+    raspuns: ["ales", "începe", "înțeles"],
+    r: "Nu caut vorbe pe <b>ales</b>, </br>Nici știu cum aș <b>începe</b> -</br>Deși vorbești pe <b>înțeles</b>,</br>Eu nu te pot pricepe;</br>"
+  },
+  {
+    versuri: "Privea în zare cum pe mări<br>........ și străluce,<br>Pe mișcătoarele ........<br>........negre duce.<br>",
+    raspuns: ["Răsare", "cărări", "Corăbii"],
+    r: "Privea în zare cum pe mări<br><b>Răsare</b> și străluce,<br>Pe mișcătoarele <b>cărări</b><br><b>Corăbii</b> negre duce.<br>"
+  },
+  {
+    versuri: "Cum ea pe ........-și răzima<br>Visând ale ei tâmple<br>De ........ lui și ........<br>Și sufletu-i se împle.<br>",
+    raspuns: ["coate","dorul", "inima"],
+    r: "Cum ea pe <b>coate</b>-și răzima<br>Visând ale ei tâmple<br>De <b>dorul</b> lui și <b>inima</b><br>Și sufletu-i se împle.<br>"
   },],
 ],
 
@@ -142,8 +177,6 @@ function verif(){
 		a = a.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
 		a = diacritice(a);
 
-		console.log(a);
-
 		let b;
 
 		b=authorArray[operaIndex][grade][randomNum].raspuns[i];
@@ -171,15 +204,23 @@ function verif(){
 
 }
 
+const removeElements = (elms) => elms.forEach(el => el.remove());
+
 function newGame(){
+	let clone = document.getElementsByClassName("raspuns")[0].cloneNode( true );
+
+	removeElements( document.querySelectorAll(".raspuns") );
+	    document.getElementById('raspunsuri').appendChild( clone );
+
 	ok=0;
 	document.getElementById("good-ans").style.display="none";
 	document.getElementById("wrong-ans").style.display="none";
 	let arrLength = authorArray[operaIndex][grade][randomNum].raspuns.length;
+	flow();
     for(let i=0;i<arrLength;i++)
     	document.getElementsByClassName("raspuns")[i].value="";
 	document.getElementById("cont-vers").style.display="flex";
-	flow();
+
 }
 
 
