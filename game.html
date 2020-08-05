@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/style.css"/>
+	<link rel="stylesheet" href="CSS/opera.css"/>
+	<link rel="stylesheet" href="CSS/game.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div id="logo">
+		<a href="index.html">Website</a>
+	    </div>
+	    <div id="menu">
+	    	<a href="index.html"><div class="option">Acasă</div></a>
+	    </div>
+	</header>
+
+	<div class="content" id="cont-opera">
+		<div id="main-text">Alege Opera</div>
+		
+		<div id="options">
+
+		  <div class="card" onclick="operaFunction('Eminescu', 'Luceafarul')">
+		  	<div class="author">Mihai Eminescu</div>
+		  	<div class="image"><img src="https://www.lovendal.ro/wp52/wp-content/uploads/2013/01/Luceafarul-Eminescu.jpg" /></div>
+		  	<div class="opera">Luceafarul</div>
+		  </div>
+
+		  <div class="card" onclick="operaFunction('Eminescu', 'Floare-Albastra')">
+		  	<div class="author">Mihai Eminescu</div>
+		  	<div class="image"><img src="https://elitere.ro/wp-content/uploads/2014/12/floare-albastra.jpg" /></div>
+		  	<div class="opera">Floare Albastra</div>
+		  </div>
+
+		  <div class="card" onclick="operaFunction('Blaga', 'Corola')">
+		  	<div class="author">Lucian Blaga</div>
+		  	<div class="image"><img src="https://totulpentrunoi.com/wp-content/uploads/2012/09/243495_358365247571348_395754522_o-300x238.jpg" /></div>
+		  	<div class="opera">Eu nu strivesc corola de minuni a lumii</div>
+		  </div>
+
+	    </div>
+	</div>
+
+	<div class="content" id="cont-dif" style="display: none;">
+		<div id="main-text">Alege Dificultatea</div>
+		
+		<div id="difficulty">
+		  <button type="button" onclick="difficultyFunction(0);">Ușor</button>
+		  <button type="button" onclick="difficultyFunction(1);">Mediu</button>
+		  <button type="button" onclick="difficultyFunction(2);">Dificil</button>
+		  <br><br><br>
+	    </div>
+	</div>
+    
+    <div class="content" id="cont-vers" style="display: none;">
+	<div id="main-text">Completeaza Versurile</div>
+	<div id="versuri"></div>
+	<div id="raspunsuri">
+		<input type="text" class="raspuns" placeholder="Raspunsul tau...">
+	</div>
+	<button type="button" onclick="verif()">Verifica</button>
+	</div>
+
+    <div id="good-ans" style="display: none;">
+      <div>Corect!</div>
+      <button type="button" onclick="newGame()">Următoarele Versuri</button>
+    </div>
+    <div id="wrong-ans" style="display: none;">
+      <div>Răspunsul corect era:</div>
+      <div id="ans"></div>
+      <button type="button" onclick="newGame()">Următoarele Versuri</button>
+    </div>
+    <script src="JS/game.js"></script>
+    
+</body>
+</html>

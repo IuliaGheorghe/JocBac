@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+	background-color: darkcyan;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+header a{
+	text-decoration: none;
+	color: #fff;
+	
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#logo{
+	font-size: 40px;
+	padding: 30px;
+}
+
+.option{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+#menu a{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.option{
+	height: 100%;
+
+}
+
+.option:hover{
+	background-color: lightseagreen;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+
+}
+
+#welcome-text{
+	font-size: 80px;
+	font-weight: bold;
+	color: darkcyan;
+	padding: 100px;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+#description{
+	text-align: justify;
+	font-size: 25px;
+	letter-spacing: 1.2px;
+	color: #000;
+
+}
+
+button{
+	width: 300px;
+	margin: 80px;
+	padding: 20px 40px;
+	border: none;
+	font-size: 25px;
+	background-color: darkcyan;
+	color:#fff;
+	letter-spacing: 2.4px;
+	border-radius: 4px;
+
+}
+
+button:hover{
+	background-color: lightseagreen;
+	cursor: pointer;
+}
+
+
+
+

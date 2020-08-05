@@ -1,0 +1,93 @@
+#main-text{
+    
+    font-size: 40px;
+    padding: 80px;
+    color: darkcyan;
+    text-align: center;
+}
+
+#difficulty{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+button{
+	width: 80vw;
+	margin: 40px;
+}
+
+#versuri{
+	width: 100vw;
+	background: gold;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+#raspunsuri{
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column; 
+}
+
+input[type=text]{
+    
+    width: 70vw;
+    text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	margin: 20px;
+}
+
+#good-ans, #wrong-ans{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 60px;
+	background-color: lightseagreen;
+	color:#fff;
+}
+
+#ans{
+	font-size: 20px;
+	padding: 50px;
+
+}
+
+#good-ans button, #wrong-ans button{
+	background-color: #fff;
+	color:darkcyan;
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+#good-ans button:hover{
+	background-color: darkcyan;
+	color:#fff;
+}
+
+#wrong-ans button:hover{
+	background-color: darkcyan;
+	color:#fff;
+}
+
+#wrong-ans{
+	background-color: gold;
+	color: #000;
+}
+
+#wrong-ans button{
+    color:#000;
+}
+
