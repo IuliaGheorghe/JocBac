@@ -112,15 +112,74 @@ function flow(){
 
 }
 
+function diacritice(strAccents) {
+		var strAccents = strAccents.split('');
+		var strAccentsOut = new Array();
+		var strAccentsLen = strAccents.length;
+		var accents = 'ăâîșțÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+		var accentsOut = "aaistAAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+		for (var y = 0; y < strAccentsLen; y++) {
+			if (accents.indexOf(strAccents[y]) != -1) {
+				strAccentsOut[y] = accentsOut.substr(accents.indexOf(strAccents[y]), 1);
+			} else
+				strAccentsOut[y] = strAccents[y];
+		}
+		strAccentsOut = strAccentsOut.join('');
+		return strAccentsOut;
+	}
+
+let ok = 0;
+
 function verif(){
-    // document.getElementById("wrong-ans").style.display="flex";
-    // document.getElementById("ans").innerHTML = authorArray[operaIndex][grade][randomNum].r;
     let arrLength = authorArray[operaIndex][grade][randomNum].raspuns.length;
-    for(let i=1;i<arrLength;i++){
-    
+    for(let i=0;i<arrLength;i++){
+
+    	let a;
+    	a=document.getElementsByClassName("raspuns")[i].value;
+
+    	a = a.toLowerCase();
+		a = a.replace(/\s/g,'');
+		a = a.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+		a = diacritice(a);
+
+		console.log(a);
+
+		let b;
+
+		b=authorArray[operaIndex][grade][randomNum].raspuns[i];
+
+		b = b.toLowerCase();
+		b = b.replace(/\s/g,'');
+		b = b.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+		b = diacritice(b);
+
+    	if(a !== b) ok++;
+        
+  
+
+    }
+
+    if(ok===0) {
+    	document.getElementById("cont-vers").style.display="none";
+    	document.getElementById("good-ans").style.display="flex";
+    }
+    else {
+        document.getElementById("cont-vers").style.display="none";
+    	document.getElementById("wrong-ans").style.display="flex";
+        document.getElementById("ans").innerHTML = authorArray[operaIndex][grade][randomNum].r;
     }
 
 }
 
+function newGame(){
+	ok=0;
+	document.getElementById("good-ans").style.display="none";
+	document.getElementById("wrong-ans").style.display="none";
+	let arrLength = authorArray[operaIndex][grade][randomNum].raspuns.length;
+    for(let i=0;i<arrLength;i++)
+    	document.getElementsByClassName("raspuns")[i].value="";
+	document.getElementById("cont-vers").style.display="flex";
+	flow();
+}
 
 
