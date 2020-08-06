@@ -477,11 +477,326 @@ let Eminescu = [
 
 ]
 
+let Bacovia = [
+
+//Plumb
+[
+//easy
+[{
+    versuri: "Dormeau ......... sicriele de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["adânc"],
+    r: "Dormeau <b>adânc</b> sicriele de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+
+  {
+    versuri: "Dormeau adânc ........ de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["sicriele"],
+    r: "Dormeau adânc <b>sicriele</b> de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și ........ de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["flori"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și <b>flori</b> de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și ........ veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["funerar"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și <b>funerar</b> veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și funerar ........—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["veștmânt"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și funerar <b>veștmânt</b>—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era ........ ...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["vânt"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era <b>vânt</b>...<br>Și scârțâiau coroanele de plumb"
+  },
+
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt ...<br>Și scârțâiau ........ de plumb",
+    raspuns: ["coroanele"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau <b>coroanele</b> de plumb"
+  },
+
+  {
+    versuri: "Dormea ........ amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["întors"],
+    r: "Dormea <b>întors</b> amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb."
+  },
+  {
+    versuri: "Dormea întors ........ meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["amorul"],
+    r: "Dormea întors <b>amorul</b> meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb."
+  },
+   {
+    versuri: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l ........—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["strig"],
+    r: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l <b>strig</b>—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb."
+  },
+  {
+    versuri: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă ........ ... și era frig...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["mort"],
+    r: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă <b>mort</b>... și era frig...<br>Și-i atârnau aripele de plumb."
+  },
+
+{
+    versuri: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era ........ ...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["frig"],
+    r: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era <b>frig</b>...<br>Și-i atârnau aripele de plumb."
+  },
+  {
+    versuri: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau ......... de plumb.",
+    raspuns: ["aripele"],
+    r: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau <b>aripele</b> de plumb."
+  },
+  {
+    versuri: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i ......... aripele de plumb.",
+    raspuns: ["atârnau"],
+    r: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i <b>atârnau</b> aripele de plumb."
+  },
+
+  ],
+//medium
+[{
+    versuri: "Dormeau ......... sicriele de plumb,<br>Și ........ de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["adânc", "flori"],
+    r: "Dormeau <b>adânc</b> sicriele de plumb,<br>Și <b>flori</b> de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+
+  {
+    versuri: "Dormeau adânc ........ de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau ......... de plumb",
+    raspuns: ["sicriele", "coroanele"],
+    r: "Dormeau adânc <b>sicriele</b> de plumb,<br>Și flori de plumb și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau <b>coroanele</b> de plumb"
+  },
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și ........ de plumb și ......... veștmânt—<br>Stam ........ în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["flori", "funerar", "singur"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și <b>flori</b> de plumb și <b>funerar</b> veștmânt—<br>Stam <b>singur</b> în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și ........ veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și ............ .......... de plumb",
+    raspuns: ["funerar", "scârțâiau", "coroanele"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și flori de plumb și <b>funerar</b> veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și <b>scârțâiau</b> <b>coroanele</b> de plumb"
+  },
+
+  {
+    versuri: "......... adânc sicriele de plumb,<br>Și flori de plumb și funerar ........—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["Dormeau","veștmânt"],
+    r: "<b>Dormeau</b> adânc sicriele de plumb,<br>Și flori de plumb și funerar <b>veștmânt</b>—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+
+
+  {
+    versuri: "Dormea ........ amorul meu de plumb<br>Pe ........ de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["întors", "flori"],
+    r: "Dormea <b>întors</b> amorul meu de plumb<br>Pe <b>flori</b> de plumb, și-am început să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb."
+  },
+  {
+    versuri: "Dormea întors ........ meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>......... singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["amorul", "Stam"],
+    r: "Dormea întors <b>amorul</b> meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br><b>Stam</b> singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb."
+  },
+   {
+    versuri: "Dormea întors amorul ........ de plumb<br>Pe flori de ........, și-am început să-l ........—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["meu","plumb","strig"],
+    r: "Dormea întors amorul <b>meu</b> de plumb<br>Pe flori de <b>plumb</b>, și-am început să-l <b>strig</b>—<br>Stam singur lângă mort... și era frig...<br>Și-i atârnau aripele de plumb."
+  },
+  {
+    versuri: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă ........ ... și era frig...<br>Și-i ......... ........ de plumb.",
+    raspuns: ["mort", "atârnau", "aripele"],
+    r: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam singur lângă <b>mort</b>... și era frig...<br>Și-i <b>atârnau</b> <b>aripele</b> de plumb."
+  },
+
+{
+    versuri: "Dormea întors ........ meu de plumb<br>Pe flori de plumb, și-am ......... să-l strig—<br>Stam singur lângă mort... și era ........ ...<br>Și-i atârnau aripele de plumb.",
+    raspuns: ["amorul","început","frig"],
+    r: "Dormea întors <b>amorul</b> meu de plumb<br>Pe flori de plumb, și-am <b>început</b> să-l strig—<br>Stam singur lângă mort... și era <b>frig</b>...<br>Și-i atârnau aripele de plumb."
+  },
+
+
+  ],
+//hard
+[{
+    versuri: "......... ......... sicriele de plumb,<br>Și ........ de plumb și ........ veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb",
+    raspuns: ["Dormeau","adânc", "flori","funerar"],
+    r: "<b>Dormeau</b> <b>adânc</b> sicriele de plumb,<br>Și <b>flori</b> de plumb și <b>funerar</b> veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau coroanele de plumb"
+  },
+
+  {
+    versuri: "Dormeau adânc ........ de plumb,<br>Și ........ de ........ și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau ......... de plumb",
+    raspuns: ["sicriele","flori", "plumb", "coroanele"],
+    r: "Dormeau adânc <b>sicriele</b> de plumb,<br>Și <b>flori</b> de <b>plumb</b> și funerar veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și scârțâiau <b>coroanele</b> de plumb"
+  },
+  {
+    versuri: "Dormeau adânc sicriele de plumb,<br>Și ........ de plumb și ......... veștmânt—<br>........ ........ în cavou... și era vânt...<br>Și scârțâiau coroanele de ........",
+    raspuns: ["flori", "funerar", "Stam", "singur", "plumb"],
+    r: "Dormeau adânc sicriele de plumb,<br>Și <b>flori</b> de plumb și <b>funerar</b> veștmânt—<br><b>Stam</b> <b>singur</b> în cavou... și era vânt...<br>Și scârțâiau coroanele de <b>plumb</b>"
+  },
+  {
+    versuri: "Dormeau ......... sicriele de plumb,<br>Și flori de plumb și ........ veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și ............ .......... de plumb",
+    raspuns: ["adânc","funerar", "scârțâiau", "coroanele"],
+    r: "Dormeau <b>adânc</b> sicriele de plumb,<br>Și flori de plumb și <b>funerar</b> veștmânt—<br>Stam singur în cavou... și era vânt...<br>Și <b>scârțâiau</b> <b>coroanele</b> de plumb"
+  },
+
+
+
+  {
+    versuri: "Dormea ........ amorul meu de plumb<br>Pe ........ de plumb, și-am ........ să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-........ atârnau aripele de plumb.",
+    raspuns: ["întors", "flori", "început", "i"],
+    r: "Dormea <b>întors</b> amorul meu de plumb<br>Pe <b>flori</b> de plumb, și-am <b>început</b> să-l strig—<br>Stam singur lângă mort... și era frig...<br>Și-<b>i</b> atârnau aripele de plumb."
+  },
+  {
+    versuri: "Dormea întors ........ meu de plumb<br>......... flori de plumb, și-am început să-l strig—<br>......... singur lângă mort... și era frig...<br>Și-i ......... aripele de plumb.",
+    raspuns: ["amorul", "Pe","Stam", "atârnau"],
+    r: "Dormea întors <b>amorul</b> meu de plumb<br><b>Pe</b> flori de plumb, și-am început să-l strig—<br><b>Stam</b> singur lângă mort... și era frig...<br>Și-i <b>atârnau</b> aripele de plumb."
+  },
+   {
+    versuri: "Dormea întors amorul ........ de plumb<br>Pe flori de ........, și-am început să-l ........—<br>Stam singur lângă mort... și era frig...<br>........-i atârnau aripele de plumb.",
+    raspuns: ["meu","plumb","strig", "Și"],
+    r: "Dormea întors amorul <b>meu</b> de plumb<br>Pe flori de <b>plumb</b>, și-am început să-l <b>strig</b>—<br>Stam singur lângă mort... și era frig...<br><b>Și</b>-i atârnau aripele de plumb."
+  },
+  {
+    versuri: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam ........ lângă ........ ... și era frig...<br>Și-i ......... ........ de plumb.",
+    raspuns: ["singur","mort", "atârnau", "aripele"],
+    r: "Dormea întors amorul meu de plumb<br>Pe flori de plumb, și-am început să-l strig—<br>Stam <b>singur</b> lângă <b>mort</b>... și era frig...<br>Și-i <b>atârnau</b> <b>aripele</b> de plumb."
+  },
+
+
+  ],
+],
+]
+
+
 let Blaga = [
 [
-  ["CorolaEasy"],
-  ["CorolaMedium"],
-  ["CorolaHard"],
+  //easy
+  [{
+    versuri: "Eu nu strivesc corola de minuni a lumii<br>şi nu ucid<br>cu mintea ........, ce le-ntâlnesc<br>în calea mea<br>în flori, în ochi, pe buze ori morminte.",
+    raspuns: ["tainele"],
+    r: "Eu nu strivesc corola de minuni a lumii<br>şi nu ucid<br>cu mintea <b>tainele</b>, ce le-ntâlnesc<br>în calea mea<br>în flori, în ochi, pe buze ori morminte."
+  },
+  {
+    versuri: "Eu nu strivesc corola de minuni a lumii<br>şi nu ucid<br>cu mintea tainele, ce le-ntâlnesc<br>în ........ mea<br>în flori, în ochi, pe buze ori morminte.",
+    raspuns: ["calea"],
+    r: "Eu nu strivesc corola de minuni a lumii<br>şi nu ucid<br>cu mintea tainele, ce le-ntâlnesc<br>în <b>calea</b> mea<br>în flori, în ochi, pe buze ori morminte."
+  },
+  {
+    versuri: "........ altora<br>sugrumă vraja nepătrunsului ascuns<br>în adâncimi de întuneric,",
+    raspuns: ["Lumina"],
+    r: "<b>Lumina</b> altora<br>sugrumă vraja nepătrunsului ascuns<br>în adâncimi de întuneric,"
+  },
+  {
+    versuri: "Lumina altora<br>........ vraja nepătrunsului ascuns<br>în adâncimi de întuneric,",
+    raspuns: ["sugrumă"],
+    r: "Lumina altora<br><b>sugrumă</b> vraja nepătrunsului ascuns<br>în adâncimi de întuneric,"
+  },
+  {
+    versuri: "Lumina altora<br>sugrumă vraja nepătrunsului ascuns<br>în ......... de întuneric,",
+    raspuns: ["adâncimi"],
+    r: "Lumina altora<br>sugrumă vraja nepătrunsului ascuns<br>în <b>adâncimi</b> de întuneric,"
+  },
+  {
+    versuri: "dar eu,<br>eu cu ......... mea sporesc a lumii taină -<br>şi-ntocmai cum cu razele ei albe luna<br>nu micşorează, ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare",
+    raspuns: ["lumina"],
+    r: "dar eu,<br>eu cu <b>lumina</b> mea sporesc a lumii taină -<br>şi-ntocmai cum cu razele ei albe luna<br>nu micşorează, ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare"
+  },
+
+  {
+    versuri: "dar eu,<br>eu cu lumina mea sporesc a lumii ........ -<br>şi-ntocmai cum cu razele ei albe luna<br>nu micşorează, ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare",
+    raspuns: ["taină"],
+    r: "dar eu,<br>eu cu lumina mea sporesc a lumii <b>taină</b> -<br>şi-ntocmai cum cu razele ei albe luna<br>nu micşorează, ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare"
+  },
+  {
+    versuri: "aşa îmbogăţesc şi eu întunecata zare<br>cu largi ........ de sfânt mister<br>şi tot ce-i neînţeles<br>se schimbă-n neînţelesuri şi mai mari<br>sub ochii mei-",
+    raspuns: ["fiori"],
+    r: "aşa îmbogăţesc şi eu întunecata zare<br>cu largi <b>fiori</b> de sfânt mister<br>şi tot ce-i neînţeles<br>se schimbă-n neînţelesuri şi mai mari<br>sub ochii mei-"
+  },
+   {
+    versuri: "aşa îmbogăţesc şi eu întunecata zare<br>cu largi fiori de sfânt mister<br>şi tot ce-i neînţeles<br>se schimbă-n ......... şi mai mari<br>sub ochii mei-",
+    raspuns: ["neînţelesuri"],
+    r: "aşa îmbogăţesc şi eu întunecata zare<br>cu largi fiori de sfânt mister<br>şi tot ce-i neînţeles<br>se schimbă-n <b>neînţelesuri</b> şi mai mari<br>sub ochii mei-"
+  },],
+  //medium
+  [{
+    versuri: "Eu nu strivesc corola de minuni a lumii<br>şi nu ........<br>cu mintea tainele, ce le-ntâlnesc<br>în ........ mea<br>în flori, în ochi, pe buze ori morminte.",
+    raspuns: ["ucid","calea"],
+    r: "Eu nu strivesc corola de minuni a lumii<br>şi nu <b>ucid</b><br>cu mintea tainele, ce le-ntâlnesc<br>în <b>calea</b> mea<br>în flori, în ochi, pe buze ori morminte."
+  },
+  {
+    versuri: "Lumina altora<br>........ vraja ......... ascuns<br>în adâncimi de întuneric,",
+    raspuns: ["sugrumă", "nepătrunsului"],
+    r: "Lumina altora<br><b>sugrumă</b> vraja <b>nepătrunsului</b> ascuns<br>în adâncimi de întuneric,"
+  },
+  {
+    versuri: "Lumina altora<br>sugrumă vraja nepătrunsului ........<br>în ......... de întuneric,",
+    raspuns: ["ascuns","adâncimi"],
+    r: "Lumina altora<br>sugrumă vraja nepătrunsului <b>ascuns</b><br>în <b>adâncimi</b> de întuneric,"
+  },
+  {
+    versuri: "dar eu,<br>eu cu lumina mea sporesc a lumii ........ -<br>şi-ntocmai cum cu razele ei albe luna<br>nu micşorează, ci ........<br>măreşte şi mai tare taina nopţii,<br>aşa ........ şi eu întunecata zare",
+    raspuns: ["taină", "tremurătoare","îmbogăţesc"],
+    r: "dar eu,<br>eu cu lumina mea sporesc a lumii <b>taină</b> -<br>şi-ntocmai cum cu razele ei albe luna<br>nu micşorează, ci <b>tremurătoare</b><br>măreşte şi mai tare taina nopţii,<br>aşa <b>îmbogăţesc</b> şi eu întunecata zare"
+  },
+  {
+    versuri: "dar eu,<br>eu cu ......... mea ........ a lumii taină -<br>şi-ntocmai cum cu ....... ei albe luna<br>nu micşorează, ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare",
+    raspuns: ["lumina", "sporesc", "razele"],
+    r: "dar eu,<br>eu cu <b>lumina</b> mea <b>sporesc</b> a lumii taină -<br>şi-ntocmai cum cu <b>razele</b> ei albe luna<br>nu micşorează, ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare"
+  },
+  {
+    versuri: "aşa îmbogăţesc şi eu întunecata zare<br>cu largi ........ de ........ mister<br>şi tot ce-i neînţeles<br>se .........-n neînţelesuri şi mai mari<br>sub ochii mei-",
+    raspuns: ["fiori", "sfânt", "schimbă"],
+    r: "aşa îmbogăţesc şi eu întunecata zare<br>cu largi <b>fiori</b> de <b>sfânt</b> mister<br>şi tot ce-i neînţeles<br>se <b>schimbă</b>-n neînţelesuri şi mai mari<br>sub ochii mei-"
+  },
+  {
+    versuri: "aşa îmbogăţesc şi eu întunecata ........<br>cu largi fiori de sfânt ........<br>şi tot ce-i neînţeles<br>se .........-n neînţelesuri şi mai mari<br>sub ochii mei-",
+    raspuns: ["zare", "mister", "schimbă"],
+    r: "aşa îmbogăţesc şi eu întunecata <b>zare</b><br>cu largi fiori de sfânt <b>mister</b><br>şi tot ce-i neînţeles<br>se <b>schimbă</b>-n neînţelesuri şi mai mari<br>sub ochii mei-"
+  },
+  ],
+  //hard
+  [{
+    versuri: "Eu nu strivesc corola de minuni a lumii<br>şi nu ........<br>cu mintea ........, ce le-........<br>în ........ mea<br>în flori, în ochi, pe buze ori morminte.",
+    raspuns: ["ucid","tainele", "ntâlnesc","calea"],
+    r: "Eu nu strivesc corola de minuni a lumii<br>şi nu <b>ucid</b><br>cu mintea <b>tainele</b>, ce le-<b>ntâlnesc</b><br>în <b>calea</b> mea<br>în flori, în ochi, pe buze ori morminte."
+  },
+  {
+    versuri: "Eu nu strivesc corola de minuni a lumii<br>şi nu ucid<br>cu mintea tainele, ce le-ntâlnesc<br>în calea mea<br>în ........, în ........., pe ......... ori ..........",
+    raspuns: ["flori","ochi", "buze", "morminte"],
+    r: "Eu nu strivesc corola de minuni a lumii<br>şi nu ucid<br>cu mintea tainele, ce le-ntâlnesc<br>în calea mea<br>în <b>flori</b>, în <b>ochi</b>, pe <b>buze</b> ori <b>morminte</b>."
+  },
+  {
+    versuri: "Lumina altora<br>........ vraja ......... ascuns<br>în adâncimi de .........,",
+    raspuns: ["sugrumă", "nepătrunsului", "întuneric"],
+    r: "Lumina altora<br><b>sugrumă</b> vraja <b>nepătrunsului</b> ascuns<br>în adâncimi de <b>întuneric</b>,"
+  },
+  {
+    versuri: "dar eu,<br>eu cu ......... mea ........ a lumii taină -<br>şi-ntocmai cum cu ....... ei albe luna<br>nu ........., ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare",
+    raspuns: ["lumina", "sporesc", "razele", "micşorează"],
+    r: "dar eu,<br>eu cu <b>lumina</b> mea <b>sporesc</b> a lumii taină -<br>şi-ntocmai cum cu <b>razele</b> ei albe luna<br>nu <b>micşorează</b>, ci tremurătoare<br>măreşte şi mai tare taina nopţii,<br>aşa îmbogăţesc şi eu întunecata zare"
+  },
+  {
+    versuri: "dar eu,<br>eu cu lumina mea sporesc a lumii taină -<br>şi-........ cum cu razele ei albe luna<br>nu micşorează, ci ........<br>măreşte şi mai tare taina ..........,<br>aşa ........ şi eu întunecata zare",
+    raspuns: ["ntocmai", "tremurătoare","nopţii","îmbogăţesc"],
+    r: "dar eu,<br>eu cu lumina mea sporesc a lumii taină-<br>şi-<b>ntocmai</b> cum cu razele ei albe luna<br>nu micşorează, ci <b>tremurătoare</b><br>măreşte şi mai tare taina <b>nopţii</b>,<br>aşa <b>îmbogăţesc</b> şi eu întunecata zare"
+  },
+
+  {
+    versuri: "aşa îmbogăţesc şi eu .......... ........<br>cu ......... fiori de sfânt ........<br>şi tot ce-i neînţeles<br>se .........-n neînţelesuri şi mai mari<br>......... ochii mei-",
+    raspuns: ["întunecata","zare", "largi", "mister", "schimbă", "sub"],
+    r: "aşa îmbogăţesc şi eu <b>întunecata</b> <b>zare</b><br>cu <b>largi</b> fiori de sfânt <b>mister</b><br>şi tot ce-i neînţeles<br>se <b>schimbă</b>-n neînţelesuri şi mai mari<br><b>sub</b> ochii mei-"
+  },
+
+  {
+    versuri: "aşa îmbogăţesc şi eu .......... zare<br>cu ......... fiori de sfânt ........<br>şi ........ ce-i neînţeles<br>se .........-n neînţelesuri şi mai mari<br> sub ......... mei-",
+    raspuns: ["întunecata", "largi", "mister", "tot","schimbă", "ochii"],
+    r: "aşa îmbogăţesc şi eu <b>întunecata</b> zare<br>cu <b>largi</b> fiori de sfânt <b>mister</b><br>şi <b>tot</b> ce-i neînţeles<br>se <b>schimbă</b>-n neînţelesuri şi mai mari<br>sub <b>ochii</b> mei-"
+  }
+
+  ],
 ],
 
 
@@ -499,16 +814,23 @@ let randomNum;
 function findAuthorArray(){
    if(autor === 'Eminescu')  authorArray = Eminescu;
    else if (autor==='Blaga') authorArray = Blaga;
+   else if (autor==='Bacovia') authorArray = Bacovia;
 
    return authorArray;
    
 }
 
 function findOperaIndex(){
-   if(authorArray===Eminescu)
-   	{if(opera==="Luceafarul") operaIndex =0;
-    else if(opera==="Floare-Albastra") operaIndex =1;}
-   else if(authorArray===Blaga) {
+   if(authorArray===Eminescu){
+   		if(opera==="Luceafarul") operaIndex =0;
+    else if(opera==="Floare-Albastra") operaIndex =1;
+}
+   
+   else if(authorArray===Bacovia){
+   		if(opera==="Plumb") operaIndex =0;
+}
+
+    else if(authorArray===Blaga) {
    	if(opera==="Corola") operaIndex = 0;
    }
 }
@@ -562,8 +884,8 @@ function diacritice(strAccents) {
 		var strAccents = strAccents.split('');
 		var strAccentsOut = new Array();
 		var strAccentsLen = strAccents.length;
-		var accents = 'ăâîșțÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
-		var accentsOut = "aaistAAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+		var accents = 'ăâîșțţÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+		var accentsOut = "aaisttAAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
 		for (var y = 0; y < strAccentsLen; y++) {
 			if (accents.indexOf(strAccents[y]) != -1) {
 				strAccentsOut[y] = accentsOut.substr(accents.indexOf(strAccents[y]), 1);
@@ -588,7 +910,9 @@ function verif(){
 		a = a.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
 		a = diacritice(a);
 
+		console.log(a);
 		let b;
+
 
 		b=authorArray[operaIndex][grade][randomNum].raspuns[i];
 
@@ -596,6 +920,8 @@ function verif(){
 		b = b.replace(/\s/g,'');
 		b = b.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
 		b = diacritice(b);
+
+		console.log(b);
 
     	if(a !== b) ok++;
         
