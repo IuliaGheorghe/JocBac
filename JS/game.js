@@ -1511,6 +1511,371 @@ let Nichita = [
 
 ]
 
+let Pillat = [
+
+//Aci-Sosi
+
+[
+ 
+ //easy
+ [
+ {
+    versuri: "La casa amintirii cu-obloane și pridvor,<br>Păienjeni .......... și poartă, și zăvor",
+    raspuns: ["zăbreliră"],
+    r: "La casa amintirii cu-obloane și pridvor,<br>Păienjeni <b>zăbreliră</b> și poartă, și zăvor"
+  },
+  
+  {
+    versuri: "Iar hornul nu mai trage alene din ciubuc<br>De când luptară-n codru și ........, și haiduc.",
+    raspuns: ["poteri"],
+    r: "Iar hornul nu mai trage alene din ciubuc<br>De când luptară-n codru și <b>poteri</b>, și haiduc."
+  },
+
+  {
+    versuri: "În drumul lor spre zare îmbătrâniră plopii.<br>Aci sosi pe vremuri bunica-mi .......... .",
+    raspuns: ["Calyopi"],
+    r: "În drumul lor spre zare îmbătrâniră plopii.<br>Aci sosi pe vremuri bunica-mi <b>Calyopi</b>."
+  },
+
+  {
+    versuri: "Nerăbdător bunicul pândise de la scară<br>.......... legănată prin lanuri de secară.",
+    raspuns: ["Berlina"],
+    r: "Nerăbdător bunicul pândise de la scară<br><b>Berlina</b> legănată prin lanuri de secară."
+  },
+
+  {
+    versuri: "Pie-atunci nu erau trenuri ca azi, și din berlină<br>Sări, subțire,-o fată în largă .......... .",
+    raspuns: ["crinolină"],
+    r: "Pie-atunci nu erau trenuri ca azi, și din berlină<br>Sări, subțire,-o fată în largă <b>crinolină</b>."
+  },
+
+  {
+    versuri: "Privind cu ea sub lună ......... ca un lac,<br>Bunicul meu desigur i-a recitat Le lac.",
+    raspuns: ["câmpia"],
+    r: "Privind cu ea sub lună <b>câmpia</b> ca un lac,<br>Bunicul meu desigur i-a recitat Le lac."
+  },
+
+  {
+    versuri: "Iar când deasupra casei ca umbre berze cad,<br>Îi spuse ........... de-un tânăr Eliad.",
+    raspuns: ["Sburătorul"],
+    r: "Iar când deasupra casei ca umbre berze cad,<br>Îi spuse <b>Sburătorul</b> de-un tânăr Eliad."
+  },
+
+  {
+    versuri: "Ea-l asculta tăcută, cu ochi de ........... ...<br>Și totul ce romantic, ca-n basme, se urzea.",
+    raspuns: ["peruzea"],
+    r: "Ea-l asculta tăcută, cu ochi de <b>peruzea</b>...<br>Și totul ce romantic, ca-n basme, se urzea."
+  },
+
+  {
+    versuri: "Și cum şedeau... departe, un clopot a sunat,<br>De ........... sau de moarte, în turnul vechi din sat.",
+    raspuns: ["nuntă"],
+    r: "Și cum şedeau... departe, un clopot a sunat,<br>De <b>nuntă</b> sau de moarte, în turnul vechi din sat."
+  },
+
+  {
+    versuri: "Dar ei, în clipa asta simțeau că-o să .......... ...<br>De mult e mort bunicul, bunica e bătrână...",
+    raspuns: ["rămână"],
+    r: "Dar ei, în clipa asta simțeau că-o să <b>rămână</b>...<br>De mult e mort bunicul, bunica e bătrână..."
+  },
+
+  {
+    versuri: "Ce straniu lucru: ...........! Deodată pe perete<br>Te vezi aievea numai în ștersele portrete.",
+    raspuns: ["vremea"],
+    r: "Ce straniu lucru: <b>vremea</b>! Deodată pe perete<br>Te vezi aievea numai în ștersele portrete."
+  },
+
+  {
+    versuri: "Te recunoști în ele, dar nu și-n .......... ta,<br>Căci trupul tău te uită, dar tu nu-l poți uita...",
+    raspuns: ["fața"],
+    r: "Te recunoști în ele, dar nu și-n <b>fața</b> ta,<br>Căci trupul tău te uită, dar tu nu-l poți uita..."
+  },
+
+  {
+    versuri: "Ca ieri sosi bunica... și vii acuma tu:<br>Pe urmele berlinei ........... ta stătu",
+    raspuns: ["trăsura"],
+    r: "Ca ieri sosi bunica... și vii acuma tu:<br>Pe urmele berlinei <b>trăsura</b> ta stătu"
+  },
+
+  {
+    versuri: "Același drum te-aduse prin lanul de secară.<br>Ca dânsa tragi, în dreptul ..........., la scară",
+    raspuns: ["pridvorului"],
+    r: "Același drum te-aduse prin lanul de secară.<br>Ca dânsa tragi, în dreptul <b>pridvorului</b>, la scară"
+  },
+
+  {
+    versuri: "Subțire, calci nisipul pe care ea sări.<br>Cu berzele într-ânsul ............ se opri...",
+    raspuns: ["amurgul"],
+    r: "Subțire, calci nisipul pe care ea sări.<br>Cu berzele într-ânsul <b>amurgul</b> se opri..."
+  },
+
+  {
+    versuri: "Și m-ai găsit, zâmbindu-mi, că prea naiv eram<br>Când ți-am șoptit poeme de bunul .......... Jammes.",
+    raspuns: ["Francis"],
+    r: "Și m-ai găsit, zâmbindu-mi, că prea naiv eram<br>Când ți-am șoptit poeme de bunul <b>Francis</b> Jammes."
+  },
+
+  {
+    versuri: "Iar când în noapte câmpul fu lac întins sub lună<br>Și-am spus ........... lunei de Horia Furtună,",
+    raspuns: ["Balada"],
+    r: "Iar când în noapte câmpul fu lac întins sub lună<br>Și-am spus <b>Balada</b> lunei de Horia Furtună,"
+  },
+
+  {
+    versuri: "M-ai ascultat pe gânduri, cu ochi de .......... ,<br>Și ți-am părut romantic și poate simbolist.",
+    raspuns: ["ametist"],
+    r: "M-ai ascultat pe gânduri, cu ochi de <b>ametist</b>,<br>Și ți-am părut romantic și poate simbolist."
+  },
+
+  {
+    versuri: "Și cum ședeam... departe, un clopot a sunat.<br>Același clopot poate , în turnul .......... din sat...",
+    raspuns: ["vechi"],
+    r: "Și cum ședeam... departe, un clopot a sunat.<br>Același clopot poate , în turnul <b>vechi</b> din sat..."
+  },
+
+  ],
+
+ //medium
+ [
+ {
+    versuri: "La casa .......... cu-obloane și pridvor,<br>Păienjeni .......... și poartă, și zăvor",
+    raspuns: ["amintirii","zăbreliră"],
+    r: "La casa <b>amintirii</b> cu-obloane și pridvor,<br>Păienjeni <b>zăbreliră</b> și poartă, și zăvor"
+  },
+  
+  {
+    versuri: "Iar hornul nu mai trage ......... din ciubuc<br>De când luptară-n ........ și ........, și haiduc.",
+    raspuns: ["alene","codru","poteri"],
+    r: "Iar hornul nu mai trage <b>alene</b> din ciubuc<br>De când luptară-n <b>codru</b> și <b>poteri</b>, și haiduc."
+  },
+
+  {
+    versuri: "În drumul lor spre zare îmbătrâniră .......... .<br>Aci sosi pe vremuri bunica-mi .......... .",
+    raspuns: ["plopii","Calyopi"],
+    r: "În drumul lor spre zare îmbătrâniră <b>plopii</b>.<br>Aci sosi pe vremuri bunica-mi <b>Calyopi</b>."
+  },
+
+  {
+    versuri: "........... bunicul pândise de la scară<br>.......... legănată prin lanuri de secară.",
+    raspuns: ["Nerăbdător","Berlina"],
+    r: "<b>Nerăbdător</b> bunicul pândise de la scară<br><b>Berlina</b> legănată prin lanuri de secară."
+  },
+
+  {
+    versuri: "Pie-atunci nu erau ........... ca azi, și din berlină<br>Sări, subțire,-o fată în largă .......... .",
+    raspuns: ["trenuri","crinolină"],
+    r: "Pie-atunci nu erau <b>trenuri</b> ca azi, și din berlină<br>Sări, subțire,-o fată în largă <b>crinolină</b>."
+  },
+
+  {
+    versuri: "Privind cu ea sub lună ......... ca un lac,<br>Bunicul meu desigur i-a ......... Le lac.",
+    raspuns: ["câmpia","recitat"],
+    r: "Privind cu ea sub lună <b>câmpia</b> ca un lac,<br>Bunicul meu desigur i-a <b>recitat</b> Le lac."
+  },
+
+  {
+    versuri: "Iar când deasupra casei ca umbre .......... cad,<br>Îi spuse ........... de-un tânăr ........ .",
+    raspuns: ["berze","Sburătorul","Eliad"],
+    r: "Iar când deasupra casei ca umbre <b>berze</b> cad,<br>Îi spuse <b>Sburătorul</b> de-un tânăr <b>Eliad</b>."
+  },
+
+  {
+    versuri: "Ea-l asculta .........., cu ochi de ........... ...<br>Și totul ce romantic, ca-n basme, se urzea.",
+    raspuns: ["tăcută","peruzea"],
+    r: "Ea-l asculta <b>tăcută</b>, cu ochi de <b>peruzea</b>...<br>Și totul ce romantic, ca-n basme, se urzea."
+  },
+
+  {
+    versuri: "Și cum şedeau... departe, un clopot a sunat,<br>De ........... sau de moarte, în turnul vechi din .......... .",
+    raspuns: ["nuntă", "sat"],
+    r: "Și cum şedeau... departe, un clopot a sunat,<br>De <b>nuntă</b> sau de moarte, în turnul vechi din <b>sat</b>."
+  },
+
+  {
+    versuri: "Dar ei, în ......... asta simțeau că-o să .......... ...<br>De mult e mort bunicul, bunica e bătrână...",
+    raspuns: ["clipa", "rămână"],
+    r: "Dar ei, în <b>clipa</b> asta simțeau că-o să <b>rămână</b>...<br>De mult e mort bunicul, bunica e bătrână..."
+  },
+
+  {
+    versuri: "Ce straniu lucru: ...........! Deodată pe perete<br>Te vezi aievea numai în ........... portrete.",
+    raspuns: ["vremea", "ștersele"],
+    r: "Ce straniu lucru: <b>vremea</b>! Deodată pe perete<br>Te vezi aievea numai în <b>ștersele</b> portrete."
+  },
+
+  {
+    versuri: "Te recunoști în ele, dar nu și-n .......... ta,<br>Căci .......... tău te uită, dar tu nu-l .......... uita...",
+    raspuns: ["fața", "trupul", "poți"],
+    r: "Te recunoști în ele, dar nu și-n <b>fața</b> ta,<br>Căci <b>trupul</b> tău te uită, dar tu nu-l <b>poți</b> uita..."
+  },
+
+  {
+    versuri: "Ca ieri sosi bunica... și vii acuma tu:<br>Pe ........... berlinei ........... ta stătu",
+    raspuns: ["urmele" ,"trăsura"],
+    r: "Ca ieri sosi bunica... și vii acuma tu:<br>Pe <b>urmele</b> berlinei <b>trăsura</b> ta stătu"
+  },
+
+  {
+    versuri: "............ drum te-aduse prin lanul de secară.<br>Ca dânsa tragi, în dreptul ..........., la scară",
+    raspuns: ["Același","pridvorului"],
+    r: "<b>Același</b> drum te-aduse prin lanul de secară.<br>Ca dânsa tragi, în dreptul <b>pridvorului</b>, la scară"
+  },
+
+  {
+    versuri: "............, calci ........... pe care ea sări.<br>Cu berzele într-ânsul ............ se opri...",
+    raspuns: ["Subțire","nisipul","amurgul"],
+    r: "<b>Subțire</b>, calci <b>nisipul</b> pe care ea sări.<br>Cu berzele într-ânsul <b>amurgul</b> se opri..."
+  },
+
+  {
+    versuri: "Și m-ai găsit, ...........-mi, că prea naiv eram<br>Când ți-am șoptit poeme de bunul .......... Jammes.",
+    raspuns: ["zâmbindu","Francis"],
+    r: "Și m-ai găsit, <b>zâmbindu</b>-mi, că prea naiv eram<br>Când ți-am șoptit poeme de bunul <b>Francis</b> Jammes."
+  },
+
+  {
+    versuri: "Iar când în noapte .......... fu lac întins sub lună<br>Și-am spus ........... lunei de Horia Furtună,",
+    raspuns: ["câmpul","Balada"],
+    r: "Iar când în noapte <b>câmpul</b> fu lac întins sub lună<br>Și-am spus <b>Balada</b> lunei de Horia Furtună,"
+  },
+
+  {
+    versuri: "M-ai ascultat pe gânduri, cu ochi de .......... ,<br>Și ți-am părut .......... și poate ......... .",
+    raspuns: ["ametist", "romantic", "simbolist"],
+    r: "M-ai ascultat pe gânduri, cu ochi de <b>ametist</b>,<br>Și ți-am părut <b>romantic</b> și poate <b>simbolist</b>."
+  },
+
+  {
+    versuri: "Și cum ședeam... departe, un clopot a sunat.<br>........... clopot poate , în turnul .......... din sat...",
+    raspuns: ["Același","vechi"],
+    r: "Și cum ședeam... departe, un clopot a sunat.<br><b>Același</b> clopot poate , în turnul <b>vechi</b> din sat..."
+  },
+
+  ],
+
+ //hard
+ [
+ {
+    versuri: "La casa .......... cu-........... și .......... ,<br>Păienjeni .......... și poartă, și ..........",
+    raspuns: ["amintirii","obloane","pridvor","zăbreliră" ,"zăvor"],
+    r: "La casa <b>amintirii</b> cu-<b>obloane</b> și <b>pridvor</b>,<br>Păienjeni <b>zăbreliră</b> și poartă, și <b>zăvor</b>"
+  },
+  
+  {
+    versuri: "Iar .......... nu mai trage ......... din ciubuc<br>De când luptară-n ........ și ........, și haiduc.",
+    raspuns: ["hornul","alene","codru","poteri"],
+    r: "Iar <b>hornul</b> nu mai trage <b>alene</b> din ciubuc<br>De când luptară-n <b>codru</b> și <b>poteri</b>, și haiduc."
+  },
+
+  {
+    versuri: "În drumul lor spre zare îmbătrâniră .......... .<br>Aci sosi pe vremuri ..........-mi .......... .",
+    raspuns: ["plopii","bunica","Calyopi"],
+    r: "În drumul lor spre zare îmbătrâniră <b>plopii</b>.<br>Aci sosi pe vremuri <b>bunica</b>-mi <b>Calyopi</b>."
+  },
+
+  {
+    versuri: "........... bunicul ............ de la scară<br>.......... legănată prin lanuri de secară.",
+    raspuns: ["Nerăbdător","pândise","Berlina"],
+    r: "<b>Nerăbdător</b> bunicul <b>pândise</b> de la scară<br><b>Berlina</b> legănată prin lanuri de secară."
+  },
+
+  {
+    versuri: "Pie-atunci nu erau ........... ca azi, și din ........... <br>Sări, ........... ,-o fată în largă .......... .",
+    raspuns: ["trenuri","berlină","subțire","crinolină"],
+    r: "Pie-atunci nu erau <b>trenuri</b> ca azi, și din <b>berlină</b><br>Sări, <b>subțire</b>,-o fată în largă <b>crinolină</b>."
+  },
+
+  {
+    versuri: ".......... cu ea sub lună ......... ca un lac,<br>Bunicul meu .......... i-a ......... Le lac.",
+    raspuns: ["Privind","câmpia","desigur", "recitat"],
+    r: "<b>Privind</b> cu ea sub lună <b>câmpia</b> ca un lac,<br>Bunicul meu <b>desigur</b> i-a <b>recitat</b> Le lac."
+  },
+
+  {
+    versuri: "Iar când deasupra ........... ca umbre .......... cad,<br>Îi spuse ........... de-un tânăr ........ .",
+    raspuns: ["casei","berze","Sburătorul","Eliad"],
+    r: "Iar când deasupra <b>casei</b> ca umbre <b>berze</b> cad,<br>Îi spuse <b>Sburătorul</b> de-un tânăr <b>Eliad</b>."
+  },
+
+  {
+    versuri: "Ea-l asculta .........., cu ochi de ........... ...<br>Și totul ce romantic, ca-n .........., se .......... .",
+    raspuns: ["tăcută","peruzea", "basme", "urzea"],
+    r: "Ea-l asculta <b>tăcută</b>, cu ochi de <b>peruzea</b>...<br>Și totul ce romantic, ca-n <b>basme</b>, se <b>urzea</b>."
+  },
+
+  {
+    versuri: "Și cum şedeau... departe, un .......... a sunat,<br>De ........... sau de moarte, în turnul vechi din .......... .",
+    raspuns: ["clopot","nuntă", "sat"],
+    r: "Și cum şedeau... departe, un <b>clopot</b> a sunat,<br>De <b>nuntă</b> sau de moarte, în turnul vechi din <b>sat</b>."
+  },
+
+  {
+    versuri: "Dar ei, în ......... asta .......... că-o să .......... ...<br>De mult e mort bunicul, bunica e bătrână...",
+    raspuns: ["clipa","simțeau", "rămână"],
+    r: "Dar ei, în <b>clipa</b> asta <b>simțeau</b> că-o să <b>rămână</b>...<br>De mult e mort bunicul, bunica e bătrână..."
+  },
+
+  {
+    versuri: "Ce ........... lucru: ...........! Deodată pe ......... <br>Te vezi aievea numai în ........... portrete.",
+    raspuns: ["straniu", "vremea", "perete","ștersele"],
+    r: "Ce <b>straniu</b> lucru: <b>vremea</b>! Deodată pe <b>perete</b><br>Te vezi aievea numai în <b>ștersele</b> portrete."
+  },
+
+  {
+    versuri: "Te ........... în ele, dar nu și-n .......... ta,<br>Căci .......... tău te uită, dar tu nu-l .......... uita...",
+    raspuns: ["recunoști","fața", "trupul", "poți"],
+    r: "Te <b>recunoști</b> în ele, dar nu și-n <b>fața</b> ta,<br>Căci <b>trupul</b> tău te uită, dar tu nu-l <b>poți</b> uita..."
+  },
+
+  {
+    versuri: "Ca ieri ........ bunica... și vii acuma tu:<br>Pe ........... berlinei ........... ta stătu",
+    raspuns: ["sosi","urmele" ,"trăsura"],
+    r: "Ca ieri <b>sosi</b> bunica... și vii acuma tu:<br>Pe <b>urmele</b> berlinei <b>trăsura</b> ta stătu"
+  },
+
+  {
+    versuri: "............ drum te-........... prin lanul de secară.<br>Ca .......... tragi, în dreptul ..........., la scară",
+    raspuns: ["Același","aduse","dânsa","pridvorului"],
+    r: "<b>Același</b> drum te-<b>aduse</b> prin lanul de secară.<br>Ca <b>dânsa</b> tragi, în dreptul <b>pridvorului</b>, la scară"
+  },
+
+  {
+    versuri: "............, calci ........... pe care ea sări.<br>Cu ......... într-.........  ............ se opri...",
+    raspuns: ["Subțire","nisipul","berzele","ânsul","amurgul"],
+    r: "<b>Subțire</b>, calci <b>nisipul</b> pe care ea sări.<br>Cu <b>berzele</b> într-<b>ânsul</b> <b>amurgul</b> se opri..."
+  },
+
+  {
+    versuri: "Și m-ai găsit, ...........-mi, că prea .......... eram<br>Când ți-am șoptit .......... de bunul .......... Jammes.",
+    raspuns: ["zâmbindu","naiv","poeme","Francis"],
+    r: "Și m-ai găsit, <b>zâmbindu</b>-mi, că prea <b>naiv</b> eram<br>Când ți-am șoptit <b>poeme</b> de bunul <b>Francis</b> Jammes."
+  },
+
+  {
+    versuri: "Iar când în noapte .......... fu lac .......... sub lună<br>Și-am spus ........... lunei de Horia Furtună,",
+    raspuns: ["câmpul","întins","Balada"],
+    r: "Iar când în noapte <b>câmpul</b> fu lac <b>întins</b> sub lună<br>Și-am spus <b>Balada</b> lunei de Horia Furtună,"
+  },
+
+  {
+    versuri: "M-ai ascultat pe .......... , cu ochi de .......... ,<br>Și ți-am părut .......... și poate ......... .",
+    raspuns: ["gânduri","ametist", "romantic", "simbolist"],
+    r: "M-ai ascultat pe <b>gânduri</b>, cu ochi de <b>ametist</b>,<br>Și ți-am părut <b>romantic</b> și poate <b>simbolist</b>."
+  },
+
+  {
+    versuri: "Și cum ședeam... departe, un clopot a sunat.<br>........... clopot poate , în ...........  .......... din sat...",
+    raspuns: ["Același","turnul","vechi"],
+    r: "Și cum ședeam... departe, un clopot a sunat.<br><b>Același</b> clopot poate , în <b>turnul</b> <b>vechi</b> din sat..."
+  },
+
+  ],
+
+],
+
+
+]
+
 let autor;
 let opera;
 let grade;
@@ -1527,6 +1892,7 @@ function findAuthorArray(){
    else if (autor==='Arghezi') authorArray = Arghezi;
    else if (autor==='Barbu') authorArray = Barbu;
    else if (autor==='Nichita') authorArray = Nichita;
+   else if (autor==='Pillat') authorArray = Pillat;
 
    return authorArray;
    
@@ -1556,6 +1922,10 @@ function findOperaIndex(){
 
    else if(authorArray===Nichita) {
    	if(opera==="Leoaica") operaIndex = 0;
+   }
+
+   else if(authorArray===Pillat) {
+   	if(opera==="Aci-Sosi") operaIndex = 0;
    }
 }
 
