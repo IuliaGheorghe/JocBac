@@ -2,7 +2,7 @@
 	display: flex;
 	width: 80vw;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -13,6 +13,7 @@
 	width: 300px;
 	background: darkcyan;
 	border-radius: 10px;
+	margin: 20px;
 }
 
 .card:hover{

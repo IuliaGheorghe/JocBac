@@ -670,8 +670,547 @@ let Bacovia = [
 ],
 ]
 
+let Arghezi = [
+
+//Flori de mucigai
+[
+//easy
+
+[
+{
+    versuri: "Le-am scris cu ........ pe tencuială<br>Pe un perete de firidă goală,<br>Pe întuneric, în singurătate,",
+    raspuns: ["unghia"],
+    r: "Le-am scris cu <b>unghia</b> pe tencuială<br>Pe un perete de firidă goală,<br>Pe întuneric, în singurătate,"
+  },
+
+  {
+    versuri: "Le-am scris cu unghia pe ........<br>Pe un perete de firidă goală,<br>Pe întuneric, în singurătate,",
+    raspuns: ["tencuială"],
+    r: "Le-am scris cu unghia pe <b>tencuială</b><br>Pe un perete de firidă goală,<br>Pe întuneric, în singurătate,"
+  },
+
+  {
+    versuri: "Le-am scris cu unghia pe tencuială<br>Pe un perete de ......... goală,<br>Pe întuneric, în singurătate,",
+    raspuns: ["firidă"],
+    r: "Le-am scris cu unghia pe tencuială<br>Pe un perete de <b>firidă</b> goală,<br>Pe întuneric, în singurătate,"
+  },
+  {
+    versuri: "Cu ........ neajutate<br>Nici de taurul, nici de leul, nici de vulturul<br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui Ioan.",
+    raspuns: ["puterile"],
+    r: "Cu <b>puterile</b> neajutate<br>Nici de taurul, nici de leul, nici de vulturul<br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui Ioan."
+  },
+  {
+    versuri: "Cu puterile neajutate<br>Nici de ........, nici de leul, nici de vulturul<br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui Ioan.",
+    raspuns: ["taurul"],
+    r: "Cu puterile neajutate<br>Nici de <b>taurul</b>, nici de leul, nici de vulturul<br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui Ioan."
+  },
+  {
+    versuri: "Cu puterile neajutate<br>Nici de taurul, nici de leul, nici de vulturul<br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui ..........",
+    raspuns: ["Ioan"],
+    r: "Cu puterile neajutate<br>Nici de taurul, nici de leul, nici de vulturul<br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui <b>Ioan</b>."
+  },
+  {
+    versuri: "Sunt ........ fără an,<br>Stihuri de groapă,<br>De sete de apă<br>Şi de foame de scrum,<br>Stihurile de acum.",
+    raspuns: ["stihuri"],
+    r: "Sunt <b>stihuri</b> fără an,<br>Stihuri de groapă,<br>De sete de apă<br>Şi de foame de scrum,<br>Stihurile de acum."
+  },
+  {
+    versuri: "Sunt stihuri fără an,<br>Stihuri de ........,<br>De sete de apă<br>Şi de foame de scrum,<br>Stihurile de acum.",
+    raspuns: ["groapă"],
+    r: "Sunt stihuri fără an,<br>Stihuri de <b>groapă</b>,<br>De sete de apă<br>Şi de foame de scrum,<br>Stihurile de acum."
+  },
+  {
+    versuri: "Sunt stihuri fără an,<br>Stihuri de groapă,<br>De sete de apă<br>Şi de foame de ........,<br>Stihurile de acum.",
+    raspuns: ["scrum"],
+    r: "Sunt stihuri fără an,<br>Stihuri de groapă,<br>De sete de apă<br>Şi de foame de <b>scrum</b>,<br>Stihurile de acum."
+  },
+  {
+    versuri: "Sunt stihuri fără an,<br>Stihuri de groapă,<br>De sete de apă<br>Şi de foame de scrum,<br>Stihurile de .........",
+    raspuns: ["acum"],
+    r: "Sunt stihuri fără an,<br>Stihuri de groapă,<br>De sete de apă<br>Şi de foame de scrum,<br>Stihurile de <b>acum</b>."
+  },
+  {
+    versuri: "Când mi s-a tocit unghia .........<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu o mai am cunoscut.",
+    raspuns: ["îngerească"],
+    r: "Când mi s-a tocit unghia <b>îngerească</b><br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu o mai am cunoscut."
+  },
+  {
+    versuri: "Când mi s-a tocit unghia îngerească<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu o mai am .........",
+    raspuns: ["cunoscut"],
+    r: "Când mi s-a tocit unghia îngerească<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu o mai am <b>cunoscut</b>."
+  },
+  {
+    versuri: "Era ......... Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ghiară<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă.",
+    raspuns: ["întuneric"],
+    r: "Era <b>întuneric</b>. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ghiară<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă."
+  },
+  {
+    versuri: "Era întuneric. Ploaia bătea ........, afară.<br>Şi mă durea mâna ca o ghiară<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă.",
+    raspuns: ["departe"],
+    r: "Era întuneric. Ploaia bătea <b>departe</b>, afară.<br>Şi mă durea mâna ca o ghiară<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă."
+  },
+  
+  {
+    versuri: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ........<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă.",
+    raspuns: ["ghiară"],
+    r: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o <b>ghiară</b><br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă."
+  },
+  {
+    versuri: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ghiară<br>........ să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă.",
+    raspuns: ["Neputincioasă"],
+    r: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ghiară<br><b>Neputincioasă</b> să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă."
+  },
+  {
+    versuri: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ghiară<br>Neputincioasă să se strângă<br>Şi m-am ........ să scriu cu unghiile de la mâna stângă.",
+    raspuns: ["silit"],
+    r: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ghiară<br>Neputincioasă să se strângă<br>Şi m-am <b>silit</b> să scriu cu unghiile de la mâna stângă."
+  },
+],
+//medium
+
+[
+{
+    versuri: "Le-am scris cu ........ pe ........<br>Pe un perete de firidă ........,<br>Pe întuneric, în singurătate,",
+    raspuns: ["unghia", "tencuială", "goală"],
+    r: "Le-am scris cu <b>unghia</b> pe <b>tencuială</b><br>Pe un perete de firidă <b>goală</b>,<br>Pe întuneric, în singurătate,"
+  },
+
+  {
+    versuri: "Le-am scris cu unghia pe ........<br>Pe un perete de firidă goală,<br>Pe ........., în .........,",
+    raspuns: ["tencuială", "întuneric", "singurătate"],
+    r: "Le-am scris cu unghia pe <b>tencuială</b><br>Pe un perete de firidă goală,<br>Pe <b>întuneric</b>, în <b>singurătate</b>,"
+  },
+
+  {
+    versuri: "Cu ........ neajutate<br>Nici de taurul, nici de ........, nici de vulturul<br>Care au ......... împrejurul<br>Lui Luca, lui Marcu şi lui Ioan.",
+    raspuns: ["puterile", "leul", "lucrat"],
+    r: "Cu <b>puterile</b> neajutate<br>Nici de taurul, nici de <b>leul</b>, nici de vulturul<br>Care au <b>lucrat</b> împrejurul<br>Lui Luca, lui Marcu şi lui Ioan."
+  },
+  {
+    versuri: "Cu puterile neajutate<br>Nici de ........, nici de leul, nici de ........<br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui Ioan.",
+    raspuns: ["taurul", "vulturul"],
+    r: "Cu puterile neajutate<br>Nici de <b>taurul</b>, nici de leul, nici de <b>vulturul</b><br>Care au lucrat împrejurul<br>Lui Luca, lui Marcu şi lui Ioan."
+  },
+
+  {
+    versuri: "Sunt ........ fără ........,<br>Stihuri de groapă,<br>De ........ de apă<br>Şi de foame de scrum,<br>Stihurile de acum.",
+    raspuns: ["stihuri", "an", "sete"],
+    r: "Sunt <b>stihuri</b> fără <b>an</b>,<br>Stihuri de groapă,<br>De <b>sete</b> de apă<br>Şi de foame de scrum,<br>Stihurile de acum."
+  },
+  {
+    versuri: "Sunt stihuri fără an,<br>Stihuri de ........,<br>De sete de apă<br>Şi de ........ de scrum,<br>Stihurile de .........",
+    raspuns: ["groapă", "foame", "acum"],
+    r: "Sunt stihuri fără an,<br>Stihuri de <b>groapă</b>,<br>De sete de apă<br>Şi de <b>foame</b> de scrum,<br>Stihurile de <b>acum</b>."
+  },
+
+  {
+    versuri: "Când mi s-a tocit ........ .........<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu ........ mai am cunoscut.",
+    raspuns: ["tocit","îngerească", "o"],
+    r: "Când mi s-a <b>tocit</b> unghia <b>îngerească</b><br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu <b>o</b> mai am cunoscut."
+  },
+  {
+    versuri: "Când mi s-a ........ unghia îngerească<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu o mai am .........",
+    raspuns: ["tocit","cunoscut"],
+    r: "Când mi s-a <b>tocit</b> unghia îngerească<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>Sau nu o mai am <b>cunoscut</b>."
+  },
+
+  {
+    versuri: "Era întuneric. Ploaia bătea ........, afară.<br>Şi mă ......... mâna ca o ........<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă.",
+    raspuns: ["departe", "durea", "ghiară"],
+    r: "Era întuneric. Ploaia bătea <b>departe</b>, afară.<br>Şi mă <b>durea</b> mâna ca o <b>ghiară</b><br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă."
+  },
+  
+  {
+    versuri: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o ........<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu ........ de la mâna stângă.",
+    raspuns: ["ghiară", "unghiile"],
+    r: "Era întuneric. Ploaia bătea departe, afară.<br>Şi mă durea mâna ca o <b>ghiară</b><br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu <b>unghiile</b> de la mâna stângă."
+  },
+
+{
+    versuri: "Era întuneric. ......... bătea departe, afară.<br>Şi mă durea mâna ca o ........<br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă.",
+    raspuns: ["Ploaia","ghiară"],
+    r: "Era întuneric. <b>Ploaia</b> bătea departe, afară.<br>Şi mă durea mâna ca o <b>ghiară</b><br>Neputincioasă să se strângă<br>Şi m-am silit să scriu cu unghiile de la mâna stângă."
+  },
+
+],
+//hard
+
+[
+
+{
+    versuri: "Le-am scris cu ........ pe ........<br>Pe un perete de ........ ........,<br>Pe întuneric, în .........,",
+    raspuns: ["unghia", "tencuială","firidă", "goală", "singurătate"],
+    r: "Le-am scris cu <b>unghia</b> pe <b>tencuială</b><br>Pe un perete de <b>firidă</b> <b>goală</b>,<br>Pe întuneric, în <b>singurătate</b>,"
+  },
+
+  {
+    versuri: "Le-am ........ cu ......... pe ........<br>Pe un perete de firidă goală,<br>Pe ........., în .........,",
+    raspuns: ["scris","unghia","tencuială", "întuneric", "singurătate"],
+    r: "Le-am <b>scris</b> cu <b>unghia</b> pe <b>tencuială</b><br>Pe un perete de firidă goală,<br>Pe <b>întuneric</b>, în <b>singurătate</b>,"
+  },
+
+  {
+    versuri: "Cu ........  ........<br>Nici de ........, nici de ........, nici de ........<br>Care au ......... împrejurul<br>Lui Luca, lui Marcu şi lui Ioan.",
+    raspuns: ["puterile", "neajutate", "taurul", "leul", "vulturul","lucrat"],
+    r: "Cu <b>puterile</b> <b>neajutate</b><br>Nici de <b>taurul</b>, nici de <b>leul</b>, nici de <b>vulturul</b><br>Care au <b>lucrat</b> împrejurul<br>Lui Luca, lui Marcu şi lui Ioan."
+  },
+  {
+    versuri: "Cu puterile neajutate<br>Nici de ........, nici de leul, nici de ........<br>Care au lucrat împrejurul<br>Lui ........, lui ......... şi lui ......... .",
+    raspuns: ["taurul", "vulturul", "Luca", "Marcu", "Ioan"],
+    r: "Cu puterile neajutate<br>Nici de <b>taurul</b>, nici de leul, nici de <b>vulturul</b><br>Care au lucrat împrejurul<br>Lui <b>Luca</b>, lui <b>Marcu</b> şi lui <b>Ioan</b>."
+  },
+
+  {
+    versuri: "Sunt ........ fără ........,<br>Stihuri de ........,<br>De ........ de ........<br>Şi de foame de ........,<br>Stihurile de acum.",
+    raspuns: ["stihuri", "an", "groapă", "sete", "apă", "scrum"],
+    r: "Sunt <b>stihuri</b> fără <b>an</b>,<br>Stihuri de <b>groapă</b>,<br>De <b>sete</b> de <b>apă</b><br>Şi de foame de <b>scrum</b>,<br>Stihurile de acum."
+  },
+  {
+    versuri: "Sunt stihuri fără ........,<br>Stihuri de ........,<br>De sete de apă<br>Şi de ........ de scrum,<br>Stihurile de .........",
+    raspuns: ["an","groapă", "foame", "acum"],
+    r: "Sunt stihuri fără <b>an</b>,<br>Stihuri de <b>groapă</b>,<br>De sete de apă<br>Şi de <b>foame</b> de scrum,<br>Stihurile de <b>acum</b>."
+  },
+
+  {
+    versuri: "Când mi s-a tocit ........ .........<br>Am ........-o să crească<br>Şi nu mi-a crescut -<br>Sau nu ........ mai am .........",
+    raspuns: ["tocit","îngerească","lăsat", "o", "cunoscut"],
+    r: "Când mi s-a <b>tocit</b> unghia <b>îngerească</b><br>Am <b>lăsat</b>-o să crească<br>Şi nu mi-a crescut -<br>Sau nu <b>o</b> mai am <b>cunoscut</b>."
+  },
+  {
+    versuri: "Când mi s-a ........ unghia .........<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>........ nu o mai am .........",
+    raspuns: ["tocit","îngerească","cunoscut", "Sau"],
+    r: "Când mi s-a <b>tocit</b> unghia <b>îngerească</b><br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br><b>Sau</b> nu o mai am <b>cunoscut</b>."
+  },
+
+  {
+    versuri: ".......... întuneric. Ploaia bătea ........, afară.<br>Şi mă ......... mâna ca o ........<br>Neputincioasă să se ........<br>Şi m-am silit să scriu cu unghiile de la mâna .........",
+    raspuns: ["Era","departe", "durea", "ghiară", "strângă", "stângă"],
+    r: "<b>Era</b> întuneric. Ploaia bătea <b>departe</b>, afară.<br>Şi mă <b>durea</b> mâna ca o <b>ghiară</b><br>Neputincioasă să se <b>strângă</b><br>Şi m-am silit să scriu cu unghiile de la mâna <b>stângă</b>."
+  },
+  
+
+{
+    versuri: "Era ......... ....... bătea departe, ........<br>Şi mă durea mâna ca o ghiară<br>.......... să se .........<br>Şi m-am silit să ......... cu unghiile de la mâna stângă.",
+    raspuns: ["întuneric", "Ploaia", "afară", "Neputincioasă", "strângă", "scriu"],
+    r: "Era <b>întuneric</b>. <b>Ploaia</b> bătea departe, <b>afară</b>.<br>Şi mă durea mâna ca o ghiară<br><b>Neputincioasă</b> să se <b>strângă</b><br>Şi m-am silit să <b>scriu</b> cu unghiile de la mâna stângă."
+  },
+],
+]
+
+]
+
+let Barbu = [
+
+//Riga
+
+[
+  //easy
+ [
+ {
+    versuri: "- Zi-l ........!<br>Cu foc l-ai zis acum o vară;<br>Azi zi-mi-l strâns, încetinel,<br>La spartul nunţii, în cămară.",
+    raspuns: ["menestrel"],
+    r: "- Zi-l <b>menestrel</b>!<br>Cu foc l-ai zis acum o vară;<br>Azi zi-mi-l strâns, încetinel,<br>La spartul nunţii, în cămară."
+  },
+  {
+    versuri: "- Zi-l menestrel!<br>Cu foc l-ai zis acum o vară;<br>Azi zi-mi-l strâns, încetinel,<br>La ......... nunţii, în cămară.",
+    raspuns: ["spartul"],
+    r: "- Zi-l menestrel!<br>Cu foc l-ai zis acum o vară;<br>Azi zi-mi-l strâns, încetinel,<br>La <b>spartul</b> nunţii, în cămară."
+  },
+  {
+    versuri: "Des cercetat de pădureţi<br>În pat de râu şi-n humă unsă,<br>Împărăţea peste ........<br>Crai Crypto, inimă ascunsă,",
+    raspuns: ["bureţi"],
+    r: "Des cercetat de pădureţi<br>În pat de râu şi-n humă unsă,<br>Împărăţea peste <b>bureţi</b><br>Crai Crypto, inimă ascunsă,"
+  },
+  {
+    versuri: "Des cercetat de ........<br>În pat de râu şi-n humă unsă,<br>Împărăţea peste bureţi<br>Crai Crypto, inimă ascunsă,",
+    raspuns: ["pădureţi"],
+    r: "Des cercetat de <b>pădureţi</b><br>În pat de râu şi-n humă unsă,<br>Împărăţea peste bureţi<br>Crai Crypto, inimă ascunsă,"
+  },
+
+  {
+    versuri: "La vecinic tron, de rouă parcă!<br>Dar printre ei bârfeau bureţii<br>De-o vrăjitoare .........,<br>De la fântâna tinereţii.",
+    raspuns: ["mânătarcă"],
+    r: "La vecinic tron, de rouă parcă!<br>Dar printre ei bârfeau bureţii<br>De-o vrăjitoare <b>mânătarcă</b>,<br>De la fântâna tinereţii."
+  },
+  {
+    versuri: "Şi răi ghioci şi toporaşi<br>Din gropi ieşeau să-l ocărască,<br>Sterp îl făceau şi nărăvaş,<br>Că nu voia să ......... .",
+    raspuns: ["înflorească"],
+    r: "Şi răi ghioci şi toporaşi<br>Din gropi ieşeau să-l ocărască,<br>Sterp îl făceau şi nărăvaş,<br>Că nu voia să <b>înflorească</b>."
+  },
+  {
+    versuri: "În ţări de gheaţă .........,<br>Pe-acelaşi timp trăia cu el,<br>Laponă mică, liniştită,<br>Cu piei, pre nume Enigel.",
+    raspuns: ["urgisită"],
+    r: "În ţări de gheaţă <b>urgisită</b>,<br>Pe-acelaşi timp trăia cu el,<br>Laponă mică, liniştită,<br>Cu piei, pre nume Enigel."
+  },
+  {
+    versuri: "- Enigel, Enigel,<br>Ţi-am adus ........., iacă.<br>Uite fragi, ţie dragi,<br>Ia-i şi toarnă-i în puiacă.",
+    raspuns: ["dulceaţă"],
+    r: "- Enigel, Enigel,<br>Ţi-am adus <b>dulceaţă</b>, iacă.<br>Uite fragi, ţie dragi,<br>Ia-i şi toarnă-i în puiacă."
+  },
+  {
+    versuri: "- Enigel, Enigel,<br>Ţi-am adus dulceaţă, iacă.<br>Uite ........, ţie dragi,<br>Ia-i şi toarnă-i în puiacă.",
+    raspuns: ["fragi"],
+    r: "- Enigel, Enigel,<br>Ţi-am adus dulceaţă, iacă.<br>Uite <b>fragi</b>, ţie dragi,<br>Ia-i şi toarnă-i în puiacă."
+  },
+  {
+    versuri: "- Rigă spân, de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii ........., mai la vale.",
+    raspuns: ["fragezi"],
+    r: "- Rigă spân, de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii <b>fragezi</b>, mai la vale."
+  },
+
+  {
+    versuri: "- Rigă spân, de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii ........., mai la vale.",
+    raspuns: ["fragezi"],
+    r: "- Rigă spân, de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii <b>fragezi</b>, mai la vale."
+  },
+  {
+    versuri: "-Enigel, Enigel,<br>Scade noaptea, ies ........,<br>Dacă pleci să culegi,<br>Începi, rogu-te, cu mine.",
+    raspuns: ["lumine"],
+    r: "-Enigel, Enigel,<br>Scade noaptea, ies <b>lumine</b>,<br>Dacă pleci să culegi,<br>Începi, rogu-te, cu mine."
+  },
+  {
+    versuri: "Că dacă-n iarnă sunt făcută,<br>Şi ........ alb mi-e vărul drept,<br>Din umbra deasă, desfăcută,<br>Mă-nchin la soarele-nţelept.",
+    raspuns: ["ursul"],
+    r: "Că dacă-n iarnă sunt făcută,<br>Şi <b>ursul</b> alb mi-e vărul drept,<br>Din umbra deasă, desfăcută,<br>Mă-nchin la soarele-nţelept."
+  },
+  {
+    versuri: "Mă-nchin la soarele-nţelept,<br>Că sufletu-i .........-n piept,<br>Şi roata albă mi-e stăpână,<brCe zace-n sufletul-fântână.",
+    raspuns: ["fântână"],
+    r: "Mă-nchin la soarele-nţelept,<br>Că sufletu-i <b>fântână</b>-n piept,<br>Şi roata albă mi-e stăpână,<brCe zace-n sufletul-fântână."
+  },
+  {
+    versuri: "Mă-nchin la soarele-nţelept,<br>Că sufletu-i fântână-n piept,<br>Şi ........ albă mi-e stăpână,<brCe zace-n sufletul-fântână.",
+    raspuns: ["roata"],
+    r: "Mă-nchin la soarele-nţelept,<br>Că sufletu-i fântână-n piept,<br>Şi <b>roata</b> albă mi-e stăpână,<brCe zace-n sufletul-fântână."
+  },
+  {
+    versuri: "Dar soarele, aprins ........,<br>Se oglindi adânc în el;<br>De zece ori, fără sfială,<br>Se oglindi în pielea-i cheală.",
+    raspuns: ["inel"],
+    r: "Dar soarele, aprins <b>inel</b>,<br>Se oglindi adânc în el;<br>De zece ori, fără sfială,<br>Se oglindi în pielea-i cheală."
+  },
+  {
+    versuri: "Şi sucul dulce ........!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu untdelemn<br>Mustesc din funduri de blestem;",
+    raspuns: ["înăcreşte"],
+    r: "Şi sucul dulce <b>înăcreşte</b>!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu untdelemn<br>Mustesc din funduri de blestem;"
+  },
+  {
+    versuri: "Şi sucul dulce înăcreşte!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu .........<br>Mustesc din funduri de blestem;",
+    raspuns: ["untdelemn"],
+    r: "Şi sucul dulce înăcreşte!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu <b>untdelemn</b><br>Mustesc din funduri de blestem;"
+  },
+  {
+    versuri: "Şi sucul dulce înăcreşte!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu untdelemn<br>Mustesc din funduri de ........;",
+    raspuns: ["blestem"],
+    r: "Şi sucul dulce înăcreşte!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu untdelemn<br>Mustesc din funduri de <b>blestem</b>;"
+  },
+  {
+    versuri: "Ca la nebunul rigă Crypto,<br>Ce focul inima i-a fript-o,<br>De a rămas să ........<br>Cu altă faţă, mai crăiască:",
+    raspuns: ["rătăcească"],
+    r: "Ca la nebunul rigă Crypto,<br>Ce focul inima i-a fript-o,<br>De a rămas să <b>rătăcească</b><br>Cu altă faţă, mai crăiască:"
+  },
+  {
+    versuri: "Cu Laurul-Balaurul,<br>Să toarne-n lume aurul,<br>Să-l toace, gol la drum să iasă,<br>Cu .........-mireasă,<br>Să-i ţie de împărăteasă.",
+    raspuns: ["măsălariţa"],
+    r: "Cu Laurul-Balaurul,<br>Să toarne-n lume aurul,<br>Să-l toace, gol la drum să iasă,<br>Cu <b>măsălariţa</b>-mireasă,<br>Să-i ţie de împărăteasă."
+  },
+  ],
+
+ //medium
+ [
+ {
+    versuri: "- Zi-l ........!<br>Cu ........ l-ai zis acum o vară;<br>Azi zi-mi-l ........, încetinel,<br>La spartul nunţii, în cămară.",
+    raspuns: ["menestrel","foc", "strâns"],
+    r: "- Zi-l <b>menestrel</b>!<br>Cu <b>foc</b> l-ai zis acum o vară;<br>Azi zi-mi-l <b>strâns</b>, încetinel,<br>La spartul nunţii, în cămară."
+  },
+  {
+    versuri: "- Zi-l menestrel!<br>Cu foc l-ai zis acum o vară;<br>Azi zi-mi-l strâns, încetinel,<br>La ......... nunţii, în ........ .",
+    raspuns: ["spartul", "cămară"],
+    r: "- Zi-l menestrel!<br>Cu foc l-ai zis acum o vară;<br>Azi zi-mi-l strâns, încetinel,<br>La <b>spartul</b> nunţii, în <b>cămară</b>."
+  },
+  {
+    versuri: "Des ........ de pădureţi<br>În pat de râu şi-n humă unsă,<br>Împărăţea peste ........<br>Crai Crypto, inimă ascunsă,",
+    raspuns: ["cercetat","bureţi"],
+    r: "Des <b>cercetat</b> de pădureţi<br>În pat de râu şi-n humă unsă,<br>Împărăţea peste <b>bureţi</b><br>Crai Crypto, inimă ascunsă,"
+  },
+  {
+    versuri: "Des cercetat de ........<br>În ........ de râu şi-n ......... unsă,<br>Împărăţea peste bureţi<br>Crai Crypto, inimă ascunsă,",
+    raspuns: ["pădureţi", "pat","humă"],
+    r: "Des cercetat de <b>pădureţi</b><br>În pat de râu şi-n humă unsă,<br>Împărăţea peste bureţi<br>Crai Crypto, inimă ascunsă,"
+  },
+
+  {
+    versuri: "La vecinic ........, de rouă parcă!<br>Dar printre ei ........ bureţii<br>De-o vrăjitoare .........,<br>De la fântâna tinereţii.",
+    raspuns: ["tron","bârfeau","mânătarcă"],
+    r: "La vecinic <b>tron</b>, de rouă parcă!<br>Dar printre ei <b>bârfeau</b> bureţii<br>De-o vrăjitoare <b>mânătarcă</b>,<br>De la fântâna tinereţii."
+  },
+  {
+    versuri: "Şi răi ghioci şi ........<br>Din gropi ieşeau să-l ocărască,<br>........ îl făceau şi nărăvaş,<br>Că nu voia să ......... .",
+    raspuns: ["toporaşi","Sterp","înflorească"],
+    r: "Şi răi ghioci şi <b>toporaşi</b><br>Din gropi ieşeau să-l ocărască,<br><b>Sterp</b> îl făceau şi nărăvaş,<br>Că nu voia să <b>înflorească</b>."
+  },
+  {
+    versuri: "În ţări de gheaţă .........,<br>Pe-acelaşi ........ trăia cu el,<br>Laponă mică, liniştită,<br>Cu piei, pre nume Enigel.",
+    raspuns: ["urgisită", "timp"],
+    r: "În ţări de gheaţă <b>urgisită</b>,<br>Pe-acelaşi <b>timp</b> trăia cu el,<br>Laponă mică, liniştită,<br>Cu piei, pre nume Enigel."
+  },
+  {
+    versuri: "- Enigel, Enigel,<br>Ţi-am adus ........., iacă.<br>Uite fragi, ţie ........,<br>Ia-i şi ........-i în puiacă.",
+    raspuns: ["dulceaţă", "dragi", "toarnă"],
+    r: "- Enigel, Enigel,<br>Ţi-am adus <b>dulceaţă</b>, iacă.<br>Uite fragi, ţie <b>dragi</b>,<br>Ia-i şi <b>toarnă</b>-i în puiacă."
+  },
+  {
+    versuri: "- Enigel, Enigel,<br>Ţi-am adus dulceaţă, .......... .<br>Uite ........, ţie dragi,<br>Ia-i şi toarnă-i în puiacă.",
+    raspuns: ["iacă","fragi"],
+    r: "- Enigel, Enigel,<br>Ţi-am adus dulceaţă, <b>iacă</b>.<br>Uite <b>fragi</b>, ţie dragi,<br>Ia-i şi toarnă-i în puiacă."
+  },
+  {
+    versuri: "- Rigă ........., de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii ........., mai la vale.",
+    raspuns: ["spân","fragezi"],
+    r: "- Rigă <b>spân</b>, de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii <b>fragezi</b>, mai la vale."
+  },
+
+  {
+    versuri: "- Rigă spân, de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii ........., mai la ........ .",
+    raspuns: ["fragezi", "vale"],
+    r: "- Rigă spân, de la sân,<br>Mulţumesc Dumitale.<br>Eu mă duc să culeg<br>Fragii <b>fragezi</b>, mai la <b>vale</b>."
+  },
+  {
+    versuri: "-Enigel, Enigel,<br>........ noaptea, ies ........,<br>Dacă .......... să culegi,<br>Începi, rogu-te, cu mine.",
+    raspuns: ["Scade","lumine", "pleci"],
+    r: "-Enigel, Enigel,<br><b>Scade</b> noaptea, ies <b>lumine</b>,<br>Dacă <b>pleci</b> să culegi,<br>Începi, rogu-te, cu mine."
+  },
+  {
+    versuri: "Că dacă-n ........ sunt făcută,<br>Şi ........ alb mi-e ........ drept,<br>Din umbra deasă, desfăcută,<br>Mă-nchin la soarele-nţelept.",
+    raspuns: ["iarnă","ursul", "vărul"],
+    r: "Că dacă-n <b>iarnă</b> sunt făcută,<br>Şi <b>ursul</b> alb mi-e <b>vărul</b> drept,<br>Din umbra deasă, desfăcută,<br>Mă-nchin la soarele-nţelept."
+  },
+  {
+    versuri: "Mă-nchin la soarele-........,<br>Că sufletu-i .........-n piept,<br>Şi roata albă mi-e stăpână,<brCe zace-n sufletul-fântână.",
+    raspuns: ["nţelept","fântână"],
+    r: "Mă-nchin la soarele-<b>nţelept</b>,<br>Că sufletu-i <b>fântână</b>-n piept,<br>Şi roata albă mi-e stăpână,<brCe zace-n sufletul-fântână."
+  },
+  {
+    versuri: "Mă-nchin la soarele-nţelept,<br>Că sufletu-i fântână-n piept,<br>Şi ........ albă mi-e ........,<brCe ........-n sufletul-fântână.",
+    raspuns: ["roata", "stăpână", "zace"],
+    r: "Mă-nchin la soarele-nţelept,<br>Că sufletu-i fântână-n piept,<br>Şi <b>roata</b> albă mi-e <b>stăpână</b>,<brCe <b>zace</b>-n sufletul-fântână."
+  },
+  {
+    versuri: "Dar soarele, aprins ........,<br>Se ........ adânc în el;<br>De zece ori, fără ........,<br>Se oglindi în pielea-i cheală.",
+    raspuns: ["inel", "oglindi", "sfială"],
+    r: "Dar soarele, aprins <b>inel</b>,<br>Se <b>oglindi</b> adânc în el;<br>De zece ori, fără <b>sfială</b>,<br>Se oglindi în pielea-i cheală."
+  },
+  {
+    versuri: "Şi sucul dulce ........!<br>Ascunsa-i inimă ........,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu untdelemn<br>Mustesc din funduri de blestem;",
+    raspuns: ["înăcreşte", "plesneşte"],
+    r: "Şi sucul dulce <b>înăcreşte</b>!<br>Ascunsa-i inimă <b>plesneşte</b>,<br>Spre zece vii peceţi de semn,<br>Venin şi roşu untdelemn<br>Mustesc din funduri de blestem;"
+  },
+  {
+    versuri: "Şi sucul dulce înăcreşte!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii ........ de semn,<br>........ şi roşu .........<br>Mustesc din funduri de blestem;",
+    raspuns: ["peceţi","Venin","untdelemn"],
+    r: "Şi sucul dulce înăcreşte!<br>Ascunsa-i inimă plesneşte,<br>Spre zece vii <b>peceţi</b> de semn,<br><b>Venin</b> şi roşu <b>untdelemn</b><br>Mustesc din funduri de blestem;"
+  },
+  {
+    versuri: "Ca la ........ rigă Crypto,<br>Ce focul inima i-a fript-o,<br>De a rămas să ........<br>Cu altă faţă, mai ........:",
+    raspuns: ["nebunul","rătăcească", "crăiască"],
+    r: "Ca la <b>nebunul</b> rigă Crypto,<br>Ce focul inima i-a fript-o,<br>De a rămas să <b>rătăcească</b><br>Cu altă faţă, mai <b>crăiască</b>:"
+  },
+  {
+    versuri: "Cu ........ - .........,<br>Să toarne-n lume aurul,<br>Să-l toace, gol la drum să iasă,<br>Cu .........-mireasă,<br>Să-i ţie de împărăteasă.",
+    raspuns: ["Laurul","Balaurul","măsălariţa"],
+    r: "Cu <b>Laurul</b>-<b>Balaurul</b>,<br>Să toarne-n lume aurul,<br>Să-l toace, gol la drum să iasă,<br>Cu <b>măsălariţa</b>-mireasă,<br>Să-i ţie de împărăteasă."
+  },
+  ],
+
+ //hard
+ [
+ {
+    versuri: "- Zi-l ........!<br>Cu ........ l-ai zis acum o ........;<br>Azi ........  ........, încetinel,<br>La spartul nunţii, în cămară.",
+    raspuns: ["menestrel","foc", "vară","zi-mi-l", "strâns"],
+    r: "- Zi-l <b>menestrel</b>!<br>Cu <b>foc</b> l-ai zis acum o <b>vară</b>;<br>Azi <b>zi-mi-l</b> <b>strâns</b>, încetinel,<br>La spartul nunţii, în cămară."
+  },
+
+  {
+    versuri: "Des ........ de ........<br>În pat de râu şi-n humă ........,<br>Împărăţea peste ........<br>Crai Crypto, inimă ascunsă,",
+    raspuns: ["cercetat","pădureţi","unsă","bureţi"],
+    r: "Des <b>cercetat</b> de <b>pădureţi</b><br>În pat de râu şi-n humă <b>unsă</b>,<br>Împărăţea peste <b>bureţi</b><br>Crai Crypto, inimă ascunsă,"
+  },
+  {
+    versuri: "Des cercetat de ........<br>În ........ de râu şi-n ......... unsă,<br>Împărăţea peste ........<br>........ Crypto, inimă ascunsă,",
+    raspuns: ["pădureţi", "pat","humă", "bureţi", "Crai"],
+    r: "Des cercetat de <b>pădureţi</b><br>În pat de râu şi-n humă unsă,<br>Împărăţea peste <b>bureţi</b><br><b>Crai</b> Crypto, inimă ascunsă,"
+  },
+
+  {
+    versuri: "La vecinic ........, de rouă parcă!<br>Dar printre ei ........ bureţii<br>De-o .........  .........,<br>De la fântâna ......... .",
+    raspuns: ["tron","bârfeau","vrăjitoare","mânătarcă", "tinereţii"],
+    r: "La vecinic <b>tron</b>, de rouă parcă!<br>Dar printre ei <b>bârfeau</b> bureţii<br>De-o <b>vrăjitoare</b> <b>mânătarcă</b>,<br>De la fântâna <b>tinereţii</b>."
+  },
+  {
+    versuri: "Şi răi ........ şi ........<br>Din gropi ieşeau să-l ........,<br>........ îl făceau şi nărăvaş,<br>Că nu voia să ......... .",
+    raspuns: ["ghioci","toporaşi","ocărască","Sterp","înflorească"],
+    r: "Şi răi <b>ghioci</b> şi <b>toporaşi</b><br>Din gropi ieşeau să-l <b>ocărască</b>,<br><b>Sterp</b> îl făceau şi nărăvaş,<br>Că nu voia să <b>înflorească</b>."
+  },
+  {
+    versuri: "În ţări de gheaţă .........,<br>Pe-acelaşi ........ trăia cu el,<br>Laponă ........,  ........ ,<br>Cu piei, pre nume Enigel.",
+    raspuns: ["urgisită", "timp", "mică", "liniştită"],
+    r: "În ţări de gheaţă <b>urgisită</b>,<br>Pe-acelaşi <b>timp</b> trăia cu el,<br>Laponă <b>mică</b>, <b>liniştită</b>,<br>Cu piei, pre nume Enigel."
+  },
+  
+  {
+    versuri: "- Rigă ........., de la sân,<br>Mulţumesc ........ .<br>Eu mă duc să ........<br>Fragii ........., mai la vale.",
+    raspuns: ["spân","Dumitale","culeg","fragezi"],
+    r: "- Rigă <b>spân</b>, de la sân,<br>Mulţumesc <b>Dumitale</b>.<br>Eu mă duc să <b>culeg</b><br>Fragii <b>fragezi</b>, mai la vale."
+  },
+
+  {
+    versuri: "-Enigel, Enigel,<br>........ noaptea, ies ........,<br>Dacă .......... să culegi,<br>........, rogu-te, cu mine.",
+    raspuns: ["Scade","lumine", "pleci", "Începi"],
+    r: "-Enigel, Enigel,<br><b>Scade</b> noaptea, ies <b>lumine</b>,<br>Dacă <b>pleci</b> să culegi,<br><b>Începi</b>, rogu-te, cu mine."
+  },
+  {
+    versuri: "Că dacă-n ........ sunt făcută,<br>Şi ........ alb mi-e ........ drept,<br>Din ........ deasă, ........,<br>Mă-nchin la soarele-nţelept.",
+    raspuns: ["iarnă","ursul", "vărul","umbra", "desfăcută"],
+    r: "Că dacă-n <b>iarnă</b> sunt făcută,<br>Şi <b>ursul</b> alb mi-e <b>vărul</b> drept,<br>Din <b>umbra</b> deasă, <b>desfăcută</b>,<br>Mă-nchin la soarele-nţelept."
+  },
+  {
+    versuri: "Mă-nchin la soarele-........,<br>Că ........-i .........-n piept,<br>Şi roata albă mi-e ........,<brCe zace-n sufletul-fântână.",
+    raspuns: ["nţelept","sufletu","fântână","stăpână"],
+    r: "Mă-nchin la soarele-<b>nţelept</b>,<br>Că <b>sufletu</b>-i <b>fântână</b>-n piept,<br>Şi roata albă mi-e <b>stăpână</b>,<brCe zace-n sufletul-fântână."
+  },
+  
+  {
+    versuri: "Dar ........, aprins ........,<br>Se ........ adânc în el;<br>De zece ori, fără ........,<br>Se ......... în pielea-i .......... .",
+    raspuns: ["soarele","inel", "oglindi", "sfială", "oglindi", "cheală"],
+    r: "Dar <b>soarele</b>, aprins <b>inel</b>,<br>Se <b>oglindi</b> adânc în el;<br>De zece ori, fără <b>sfială</b>,<br>Se <b>oglindi</b> în pielea-i <b>cheală</b>."
+  },
+  {
+    versuri: "Şi sucul dulce ........!<br>Ascunsa-i inimă ........,<br>Spre zece vii ........ de ........,<br>Venin şi roşu untdelemn<br>.......... din funduri de blestem;",
+    raspuns: ["înăcreşte", "plesneşte", "peceţi", "semn","Mustesc"],
+    r: "Şi sucul dulce <b>înăcreşte</b>!<br>Ascunsa-i inimă <b>plesneşte</b>,<br>Spre zece vii <b>peceţi</b> de <b>semn</b>,<br>Venin şi roşu untdelemn<br><b>Mustesc</b> din funduri de blestem;"
+  },
+  
+  {
+    versuri: "Ca la ........ rigă ........,<br>Ce focul inima i-a ........-o,<br>De a rămas să ........<br>Cu altă ........, mai ........:",
+    raspuns: ["nebunul","Crypto","fript","rătăcească", "faţă", "crăiască"],
+    r: "Ca la <b>nebunul</b> rigă <b>Crypto</b>,<br>Ce focul inima i-a <b>fript</b>-o,<br>De a rămas să <b>rătăcească</b><br>Cu altă faţă, mai <b>crăiască</b>:"
+  },
+  {
+    versuri: "Cu ........ - .........,<br>Să toarne-n lume ........,<br>Să-l toace, ......... la drum să iasă,<br>Cu .........-mireasă,<br>Să-i ţie de .......... .",
+    raspuns: ["Laurul","Balaurul","aurul","gol", "măsălariţa", "împărăteasă"],
+    r: "Cu <b>Laurul</b>-<b>Balaurul</b>,<br>Să toarne-n lume <b>aurul</b>,<br>Să-l toace, <b>gol</b> la drum să iasă,<br>Cu <b>măsălariţa</b>-mireasă,<br>Să-i ţie de <b>împărăteasă</b>."
+  },
+
+],
+
+],
+
+
+]
+
 
 let Blaga = [
+
+//Corola
 [
   //easy
   [{
@@ -790,15 +1329,185 @@ let Blaga = [
     r: "aşa îmbogăţesc şi eu <b>întunecata</b> <b>zare</b><br>cu <b>largi</b> fiori de sfânt <b>mister</b><br>şi tot ce-i neînţeles<br>se <b>schimbă</b>-n neînţelesuri şi mai mari<br><b>sub</b> ochii mei-"
   },
 
-  {
-    versuri: "aşa îmbogăţesc şi eu .......... zare<br>cu ......... fiori de sfânt ........<br>şi ........ ce-i neînţeles<br>se .........-n neînţelesuri şi mai mari<br> sub ......... mei-",
-    raspuns: ["întunecata", "largi", "mister", "tot","schimbă", "ochii"],
-    r: "aşa îmbogăţesc şi eu <b>întunecata</b> zare<br>cu <b>largi</b> fiori de sfânt <b>mister</b><br>şi <b>tot</b> ce-i neînţeles<br>se <b>schimbă</b>-n neînţelesuri şi mai mari<br>sub <b>ochii</b> mei-"
-  }
-
   ],
 ],
+]
 
+let Nichita = [
+
+//Leoaica
+[
+ //easy
+ [{
+    versuri: "Leoaica tânără, iubirea<br>mi-ai sărit în faţă.<br>Mă pândise-n ........<br>mai demult.",
+    raspuns: ["încordare"],
+    r: "Leoaica tânără, iubirea<br>mi-ai sărit în faţă.<br>Mă pândise-n <b>încordare</b><br>mai demult."
+  },
+  {
+    versuri: "Colţii albi mi i-a înfipt în faţă,<br>m-a muşcat leoaica, ........, de faţă.",
+    raspuns: ["azi"],
+    r: "Colţii albi mi i-a înfipt în faţă,<br>m-a muşcat leoaica, <b>azi</b>, de faţă."
+  },
+  {
+    versuri: "Şi deodata-n jurul meu, ........<br>se făcu un cerc, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de ape.",
+    raspuns: ["natura"],
+    r: "Şi deodata-n jurul meu, <b>natura</b><br>se făcu un cerc, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de ape."
+  },
+  {
+    versuri: "Şi deodata-n jurul meu, natura<br>se făcu un ........, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de ape.",
+    raspuns: ["cerc"],
+    r: "Şi deodata-n jurul meu, natura<br>se făcu un <b>cerc</b>, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de ape."
+  },
+  {
+    versuri: "Şi deodata-n jurul meu, natura<br>se făcu un cerc, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o ......... de ape.",
+    raspuns: ["strângere"],
+    r: "Şi deodata-n jurul meu, natura<br>se făcu un cerc, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o <b>strângere</b> de ape."
+  },
+  {
+    versuri: "Şi ........-n sus ţişni,<br>curcubeu tăiat în două,<br>şi auzul o-ntâlni<br>tocmai lângă ciocârlii.",
+    raspuns: ["privirea"],
+    r: "Şi <b>privirea</b>-n sus ţişni,<br>curcubeu tăiat în două,<br>şi auzul o-ntâlni<br>tocmai lângă ciocârlii."
+  },
+  {
+    versuri: "Şi privirea-n sus ţişni,<br>.......... tăiat în două,<br>şi auzul o-ntâlni<br>tocmai lângă ciocârlii.",
+    raspuns: ["curcubeu"],
+    r: "Şi privirea-n sus ţişni,<br><b>curcubeu</b> tăiat în două,<br>şi auzul o-ntâlni<br>tocmai lângă ciocârlii."
+  },
+  {
+    versuri: "Şi privirea-n sus ţişni,<br>curcubeu tăiat în două,<br>şi auzul o-ntâlni<br>tocmai lângă ......... .",
+    raspuns: ["ciocârlii"],
+    r: "Şi privirea-n sus ţişni,<br>curcubeu tăiat în două,<br>şi auzul o-ntâlni<br>tocmai lângă <b>ciocârlii</b>."
+  },
+  {
+    versuri: "Mi-am dus mâna la .......... ,<br>la tâmplă şi la bărbie,<br>dar mâna nu le mai ştie.",
+    raspuns: ["sprânceană"],
+    r: "Mi-am dus mâna la <b>sprânceană</b>,<br>la tâmplă şi la bărbie,<br>dar mâna nu le mai ştie."
+  },
+  {
+    versuri: "Şi alunecă-n .........<br>pe-un deşert în strălucire,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["neştire"],
+    r: "Şi alunecă-n <b>neştire</b><br>pe-un deşert în strălucire,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  {
+    versuri: "Şi alunecă-n neştire<br>pe-un deşert în ..........,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["strălucire"],
+    r: "Şi alunecă-n neştire<br>pe-un deşert în <b>strălucire</b>,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  {
+    versuri: "Şi alunecă-n neştire<br>pe-un deşert în strălucire,<br>peste care trece-..........<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["alene"],
+    r: "Şi alunecă-n neştire<br>pe-un deşert în strălucire,<br>peste care trece-<b>alene</b><br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  {
+    versuri: "Şi alunecă-n neştire<br>pe-un deşert în strălucire,<br>peste care trece-alene<br>o leoaică ...........<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["arămie"],
+    r: "Şi alunecă-n neştire<br>pe-un deşert în strălucire,<br>peste care trece-alene<br>o leoaică <b>arămie</b><br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  {
+    versuri: "Şi alunecă-n neştire<br>pe-un deşert în strălucire,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările .........,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["viclene"],
+    r: "Şi alunecă-n neştire<br>pe-un deşert în strălucire,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările <b>viclene</b>,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  ],
+  
+ //medium
+ [{
+    versuri: "Leoaica tânără, iubirea<br>mi-ai ......... în ........ .<br>Mă pândise-n ........<br>mai demult.",
+    raspuns: ["sărit","faţă","încordare"],
+    r: "Leoaica tânără, iubirea<br>mi-ai <b>sărit</b> în <b>faţă</b>.<br>Mă pândise-n <b>încordare</b><br>mai demult."
+  },
+  {
+    versuri: "..........  .......... mi i-a înfipt în faţă,<br>m-a muşcat leoaica, ........, de faţă.",
+    raspuns: ["Colţii","albi","azi"],
+    r: "<b>Colţii</b> <b>albi</b> mi i-a înfipt în faţă,<br>m-a muşcat leoaica, <b>azi</b>, de faţă."
+  },
+  
+  {
+    versuri: "Şi .........-n jurul meu, natura<br>se făcu un ........, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de ape.",
+    raspuns: ["deodata","cerc"],
+    r: "Şi <b>deodata</b>-n jurul meu, natura<br>se făcu un <b>cerc</b>, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de ape."
+  },
+  {
+    versuri: "Şi deodata-n jurul meu, ..........<br>se făcu un ........,, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o ......... de ape.",
+    raspuns: ["natura","cerc","strângere"],
+    r: "Şi deodata-n jurul meu, <b>natura</b><br>se făcu un <b>cerc</b>, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o <b>strângere</b> de ape."
+  },
+  
+  {
+    versuri: "Şi ..........-n sus ţişni,<br>.......... tăiat în două,<br>şi auzul o-.........<br>tocmai lângă ciocârlii.",
+    raspuns: ["privirea","curcubeu", "ntâlni"],
+    r: "Şi <b>privirea</b>-n sus ţişni,<br><b>curcubeu</b> tăiat în două,<br>şi auzul o-<b>ntâlni</b><br>tocmai lângă ciocârlii."
+  },
+  {
+    versuri: "Şi privirea-n sus ţişni,<br>curcubeu ......... în două,<br>şi ........ o-ntâlni<br>tocmai lângă ......... .",
+    raspuns: ["tăiat","auzul","ciocârlii"],
+    r: "Şi privirea-n sus ţişni,<br>curcubeu <b>tăiat</b> în două,<br>şi <b>auzul</b> o-ntâlni<br>tocmai lângă <b>ciocârlii</b>."
+  },
+  {
+    versuri: "Mi-am dus ......... la .......... ,<br>la tâmplă şi la bărbie,<br>dar mâna nu le mai ......... .",
+    raspuns: ["mâna","sprânceană", "ştie"],
+    r: "Mi-am dus <b>mâna</b> la <b>sprânceană</b>,<br>la tâmplă şi la bărbie,<br>dar mâna nu le mai <b>ştie</b>."
+  },
+  {
+    versuri: "Şi alunecă-n .........<br>pe-un .......... în strălucire,<br>peste care ..........-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["neştire", "deşert", "trece"],
+    r: "Şi alunecă-n <b>neştire</b><br>pe-un <b>deşert</b> în strălucire,<br>peste care <b>trece</b>-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  {
+    versuri: "Şi .........-n neştire<br>pe-un deşert în ..........,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["alunecă","strălucire"],
+    r: "Şi <b>alunecă</b>-n neştire<br>pe-un deşert în <b>strălucire</b>,<br>peste care trece-alene<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  
+  ],
+
+ //hard
+ [{
+    versuri: "Leoaica tânără, iubirea<br>mi-ai ......... în ........ .<br>Mă ..........-n ........<br>mai demult.",
+    raspuns: ["sărit","faţă","pândise","încordare"],
+    r: "Leoaica tânără, iubirea<br>mi-ai <b>sărit</b> în <b>faţă</b>.<br>Mă <b>pândise</b>-n <b>încordare</b><br>mai demult."
+  },
+  {
+    versuri: "..........  .......... mi i-a înfipt în ........,<br>m-a ......... leoaica, ........, de faţă.",
+    raspuns: ["Colţii","albi","faţă","muşcat","azi"],
+    r: "<b>Colţii</b> <b>albi</b> mi i-a înfipt în <b>faţă</b>,<br>m-a <b>muşcat</b> leoaica, <b>azi</b>, de faţă."
+  },
+  
+  {
+    versuri: "Şi .........-n jurul meu, ..........<br>se făcu un ........, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de .......... .",
+    raspuns: ["deodata","natura","cerc", "ape"],
+    r: "Şi <b>deodata</b>-n jurul meu, <b>natura</b><br>se făcu un <b>cerc</b>, de-a-dura,<br>când mai larg, când mai aproape,<br>ca o strângere de <b>ape</b>."
+  },
+  {
+    versuri: "Şi deodata-n jurul meu, ..........<br>se făcu un ........,, de-a-dura,<br>când mai ........., când mai ..........,<br>ca o ......... de ape.",
+    raspuns: ["natura","cerc","larg","aproape","strângere"],
+    r: "Şi deodata-n jurul meu, <b>natura</b><br>se făcu un <b>cerc</b>, de-a-dura,<br>când mai <b>larg</b>, când mai <b>aproape</b>,<br>ca o <b>strângere</b> de ape."
+  },
+  
+  {
+    versuri: "Şi ..........-n sus ţişni,<br>.......... tăiat în ..........,<br>şi auzul o-.........<br>......... lângă ciocârlii.",
+    raspuns: ["privirea","curcubeu", "două", "ntâlni", "tocmai"],
+    r: "Şi <b>privirea</b>-n sus ţişni,<br><b>curcubeu</b> tăiat în <b>două</b>,<br>şi auzul o-<b>ntâlni</b><br><b>tocmai</b> lângă ciocârlii."
+  },
+ 
+  {
+    versuri: "Mi-am dus ......... la .......... ,<br>la .......... şi la ..........,<br>dar mâna nu le mai ......... .",
+    raspuns: ["mâna","sprânceană", "tâmplă","bărbie","ştie"],
+    r: "Mi-am dus <b>mâna</b> la <b>sprânceană</b>,<br>la <b>tâmplă</b> şi la <b>bărbie</b>,<br>dar mâna nu le mai <b>ştie</b>."
+  },
+  {
+    versuri: "Şi alunecă-n .........<br>pe-un .......... în strălucire,<br>peste care ..........-alene<br>o leoaică ........<br>cu ........ viclene,<br>încă-o vreme,<br>şi-ncă-o vreme...",
+    raspuns: ["neştire", "deşert", "trece", "arămie", "mişcările"],
+    r: "Şi alunecă-n <b>neştire</b><br>pe-un <b>deşert</b> în strălucire,<br>peste care <b>trece</b>-alene<br>o leoaică <b>arămie</b><br>cu <b>mişcările</b> viclene,<br>încă-o vreme,<br>şi-ncă-o vreme..."
+  },
+  {
+    versuri: "Şi .........-n neştire<br>pe-un deşert în ..........,<br>peste care ......... - .........<br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o ..........,<br>şi-ncă-o vreme...",
+    raspuns: ["alunecă","strălucire", "trece", "alene", "vreme"],
+    r: "Şi <b>alunecă</b>-n neştire<br>pe-un deşert în <b>strălucire</b>,<br>peste care <b>trece</b>-<b>alene</b><br>o leoaică arămie<br>cu mişcările viclene,<br>încă-o <b>vreme</b>,<br>şi-ncă-o vreme..."
+  },
+  
+  ],
+],
 
 ]
 
@@ -815,6 +1524,9 @@ function findAuthorArray(){
    if(autor === 'Eminescu')  authorArray = Eminescu;
    else if (autor==='Blaga') authorArray = Blaga;
    else if (autor==='Bacovia') authorArray = Bacovia;
+   else if (autor==='Arghezi') authorArray = Arghezi;
+   else if (autor==='Barbu') authorArray = Barbu;
+   else if (autor==='Nichita') authorArray = Nichita;
 
    return authorArray;
    
@@ -832,6 +1544,18 @@ function findOperaIndex(){
 
     else if(authorArray===Blaga) {
    	if(opera==="Corola") operaIndex = 0;
+   }
+
+   else if(authorArray===Arghezi) {
+   	if(opera==="Flori-de-Mucigai") operaIndex = 0;
+   }
+
+   else if(authorArray===Barbu) {
+   	if(opera==="Riga") operaIndex = 0;
+   }
+
+   else if(authorArray===Nichita) {
+   	if(opera==="Leoaica") operaIndex = 0;
    }
 }
 
@@ -869,8 +1593,14 @@ function inputText(){
 }
 
 function flow(){
+
+
 	findAuthorArray();
 	findOperaIndex();
+
+	console.log(authorArray);
+	console.log(operaIndex);
+	console.log(grade);
 
 	randomNum = Math.floor(Math.random() * authorArray[operaIndex][grade].length);
 	document.getElementById("versuri").innerHTML = authorArray[operaIndex][grade][randomNum].versuri;
@@ -884,8 +1614,8 @@ function diacritice(strAccents) {
 		var strAccents = strAccents.split('');
 		var strAccentsOut = new Array();
 		var strAccentsLen = strAccents.length;
-		var accents = 'ăâîșțţÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
-		var accentsOut = "aaisttAAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+		var accents = 'ăâîșțţşÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+		var accentsOut = "aaisttsAAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
 		for (var y = 0; y < strAccentsLen; y++) {
 			if (accents.indexOf(strAccents[y]) != -1) {
 				strAccentsOut[y] = accentsOut.substr(accents.indexOf(strAccents[y]), 1);
