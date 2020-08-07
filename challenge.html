@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="CSS/style.css"/>
 	<link rel="stylesheet" href="CSS/opera.css"/>
 	<link rel="stylesheet" href="CSS/game.css"/>
+	<link rel="stylesheet" href="CSS/challenge.css"/>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
@@ -23,74 +24,69 @@
 	</header>
 
 	<div class="content" id="cont-opera">
-		<div id="main-text">Alege Opera</div>
+		<div id="main-text">Alege Operele</div>
+
+		<div id="description">Alege <b>minim trei opere</b> pentru a începe o provocare. Vei avea <b>15 întrebari</b> si cate <b>un minut</b> la dispozitie pentru a raspunde la fiecare. Nivelul de dificultate va fi echivalent cu cel <b>dificil</b> din sectiunea de antrenament. Intrebarile vor fi alese in mod random din una, mai multe sau din toate operele selectate de tine.</div>
 		
 		<div id="options">
 
-		  <div class="card" onclick="operaFunction('Eminescu', 'Luceafarul')">
+		  <div class="card" onclick="aleg('Eminescu', 'Luceafarul',0)">
 		  	<div class="author">Mihai Eminescu</div>
 		  	<div class="image"><img src="https://www.lovendal.ro/wp52/wp-content/uploads/2013/01/Luceafarul-Eminescu.jpg" /></div>
 		  	<div class="opera">Luceafărul</div>
 		  </div>
 
-		  <div class="card" onclick="operaFunction('Eminescu', 'Floare-Albastra')">
+		  <div class="card" onclick="aleg('Eminescu', 'Floare-Albastra',1)">
 		  	<div class="author">Mihai Eminescu</div>
 		  	<div class="image"><img src="https://elitere.ro/wp-content/uploads/2014/12/floare-albastra.jpg" /></div>
 		  	<div class="opera">Floare Albastră</div>
 		  </div>
 
-		  <div class="card" onclick="operaFunction('Bacovia', 'Plumb')">
+		  <div class="card" onclick="aleg('Bacovia', 'Plumb',2)">
 		  	<div class="author">George Bacovia</div>
 		  	<div class="image"><img src="https://mcdn.elefant.ro/mnresize/1500/1500/images/52/68252/plumb_1_fullsize.jpg" /></div>
 		  	<div class="opera">Plumb</div>
 		  </div>
 
-		  <div class="card" onclick="operaFunction('Arghezi', 'Flori-de-Mucigai')">
+		  <div class="card" onclick="aleg('Arghezi', 'Flori-de-Mucigai',3)">
 		  	<div class="author">Tudor Arghezi</div>
 		  	<div class="image"><img src="https://elitere.ro/wp-content/uploads/2014/12/flori-de-mucigai.jpg" /></div>
 		  	<div class="opera">Flori de mucigai</div>
 		  </div>
 
-		  <div class="card" onclick="operaFunction('Barbu', 'Riga')">
+		  <div class="card" onclick="aleg('Barbu', 'Riga',4)">
 		  	<div class="author">Ion Barbu</div>
 		  	<div class="image"><img src="https://cdnb.artstation.com/p/assets/images/images/012/280/209/large/suvigya-sharma-rakesh1-1681.jpg?1533966674" /></div>
 		  	<div class="opera">Riga Crypto si lapona Enigel</div>
 		  </div>
 
-		  <div class="card" onclick="operaFunction('Blaga', 'Corola')">
+		  <div class="card" onclick="aleg('Blaga', 'Corola',5)">
 		  	<div class="author">Lucian Blaga</div>
 		  	<div class="image"><img src="https://3.bp.blogspot.com/-gODpn4TItqc/UHanOzgHR7I/AAAAAAAAJKA/o2sCy5rQQl8/s640/199331_10151072306942361_56421325_n.jpg" /></div>
 		  	<div class="opera">Eu nu strivesc corola de minuni a lumii</div>
 		  </div>
 
-		  <div class="card" onclick="operaFunction('Nichita', 'Leoaica')">
+		  <div class="card" onclick="aleg('Nichita', 'Leoaica',6)">
 		  	<div class="author">Nichita Stănescu</div>
 		  	<div class="image"><img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/female-lion-stare-don-johnson.jpg" /></div>
 		  	<div class="opera">Leoaica tânără, iubirea</div>
 		  </div>
 
-		  <div class="card" onclick="operaFunction('Pillat', 'Aci-Sosi')">
+		  <div class="card" onclick="aleg('Pillat', 'Aci-Sosi',7)">
 		  	<div class="author">Ion Pillat</div>
 		  	<div class="image"><img src="https://i.pinimg.com/474x/e2/86/94/e286949c8fe0744ca641e9478265167a--old-houses-romania.jpg" /></div>
 		  	<div class="opera">Aci sosi pe vremuri</div>
 		  </div>
 
 	    </div>
+
+	    <button id="start" type="button" onclick="startChallenge()">Start</button>
 	</div>
 
-	<div class="content" id="cont-dif" style="display: none;">
-		<div id="main-text">Alege Dificultatea</div>
-		
-		<div id="difficulty">
-		  <button type="button" onclick="difficultyFunction(0);">Ușor</button>
-		  <button type="button" onclick="difficultyFunction(1);">Mediu</button>
-		  <button type="button" onclick="difficultyFunction(2);">Dificil</button>
-		  <br><br><br>
-	    </div>
-	</div>
     
     <div class="content" id="cont-vers" style="display: none;">
 	<div id="main-text">Completează Versurile</div>
+	<div id="time"></div>
 	<div id="versuri"></div>
 	<div id="raspunsuri">
 		<input type="text" class="raspuns" placeholder="Raspunsul tau...">
@@ -107,7 +103,12 @@
       <div id="ans"></div>
       <button type="button" onclick="newGame()">Următoarele Versuri</button>
     </div>
-    <script src="JS/game.js"></script>
+    <div id="time-out" style="display: none;">
+      <div>Ai rămas fără timp! Răspunsul corect era:</div>
+      <div id="ans-time-out"></div>
+      <button type="button" onclick="newGame()">Următoarele Versuri</button>
+    </div>
+    <script src="JS/challenge.js"></script>
     
 </body>
 </html>

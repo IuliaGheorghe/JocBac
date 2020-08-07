@@ -53,24 +53,23 @@ function operaFunction(x,y){
 
 	console.log(y);
 
-   		 if(y==="Luceafarul") obj = "luceafarul";
-    else if(y==="Floare-Albastra") obj = "floareAlbastra";
-   	else if(y==="Plumb") obj = "plumb";
-   	else if(y==="Corola") obj = "corola";
-   	else if(y==="Flori-de-Mucigai") obj = "floriDeMucigai";
-  	else if(y==="Riga") obj = "rigaCrypto";
-   	else if(y==="Leoaica") obj = "leoaica";
-   	else if(y==="Aci-Sosi") obj = "aciSosi";
+   		 if(y==="Luceafarul") obj = luceafarul;
+    else if(y==="Floare-Albastra") obj = floareAlbastra;
+   	else if(y==="Plumb") obj = plumb;
+   	else if(y==="Corola") obj = corola;
+   	else if(y==="Flori-de-Mucigai") obj = floriDeMucigai;
+  	else if(y==="Riga") obj = rigaCrypto;
+   	else if(y==="Leoaica") obj = leoaica;
+   	else if(y==="Aci-Sosi") obj = aciSosi;
 
    	document.getElementById('cont-opera').style.display="none";
    	document.getElementById('cont-versuri').style.display="flex";
 
-   	console.log(obj);
-   	console.log(floareAlbastra.nume);
 
-document.getElementById('opera').innerHTML = floareAlbastra.nume;
-document.getElementById('autor').innerHTML = floareAlbastra.autor;
-document.getElementById('versuri').innerHTML = floareAlbastra.versuri;
+
+document.getElementById('opera').innerHTML = obj.nume;
+document.getElementById('autor').innerHTML = obj.autor;
+document.getElementById('versuri').innerHTML = obj.versuri;
 
    
 }

@@ -48,7 +48,7 @@ input[type=text]{
 	margin: 20px;
 }
 
-#good-ans, #wrong-ans{
+#good-ans, #wrong-ans, #time-out{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -59,13 +59,13 @@ input[type=text]{
 	color:#fff;
 }
 
-#ans{
+#ans, #ans-time-out{
 	font-size: 20px;
 	padding: 50px;
 
 }
 
-#good-ans button, #wrong-ans button{
+#good-ans button, #wrong-ans button, #time-out button{
 	background-color: #fff;
 	color:darkcyan;
 	border: 1px solid #fff;
@@ -82,12 +82,22 @@ input[type=text]{
 	color:#fff;
 }
 
-#wrong-ans{
+#time-out button:hover{
+	background-color: darkcyan;
+	color:#fff;
+}
+
+
+#wrong-ans, #time-out{
 	background-color: gold;
 	color: #000;
 }
 
 #wrong-ans button{
+    color:#000;
+}
+
+#time-out button{
     color:#000;
 }
 

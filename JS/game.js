@@ -1035,7 +1035,7 @@ let Barbu = [
   {
     versuri: "Des cercetat de ........<br>În ........ de râu şi-n ......... unsă,<br>Împărăţea peste bureţi<br>Crai Crypto, inimă ascunsă,",
     raspuns: ["pădureţi", "pat","humă"],
-    r: "Des cercetat de <b>pădureţi</b><br>În pat de râu şi-n humă unsă,<br>Împărăţea peste bureţi<br>Crai Crypto, inimă ascunsă,"
+    r: "Des cercetat de <b>pădureţi</b><br>În <b>pat</b> de râu şi-n <b>humă</b> unsă,<br>Împărăţea peste bureţi<br>Crai Crypto, inimă ascunsă,"
   },
 
   {
@@ -1192,7 +1192,7 @@ let Barbu = [
   {
     versuri: "Ca la ........ rigă ........,<br>Ce focul inima i-a ........-o,<br>De a rămas să ........<br>Cu altă ........, mai ........:",
     raspuns: ["nebunul","Crypto","fript","rătăcească", "faţă", "crăiască"],
-    r: "Ca la <b>nebunul</b> rigă <b>Crypto</b>,<br>Ce focul inima i-a <b>fript</b>-o,<br>De a rămas să <b>rătăcească</b><br>Cu altă faţă, mai <b>crăiască</b>:"
+    r: "Ca la <b>nebunul</b> rigă <b>Crypto</b>,<br>Ce focul inima i-a <b>fript</b>-o,<br>De a rămas să <b>rătăcească</b><br>Cu altă <b>faţă</b>, mai <b>crăiască</b>:"
   },
   {
     versuri: "Cu ........ - .........,<br>Să toarne-n lume ........,<br>Să-l toace, ......... la drum să iasă,<br>Cu .........-mireasă,<br>Să-i ţie de .......... .",
@@ -1962,20 +1962,31 @@ function inputText(){
     }
 }
 
+let copieAuthorArray;
+
 function flow(){
 
 
 	findAuthorArray();
+  copieAuthorArray = authorArray;
+
 	findOperaIndex();
 
-	console.log(authorArray);
+	console.log(copieAuthorArray);
 	console.log(operaIndex);
 	console.log(grade);
 
-	randomNum = Math.floor(Math.random() * authorArray[operaIndex][grade].length);
-	document.getElementById("versuri").innerHTML = authorArray[operaIndex][grade][randomNum].versuri;
-	inputText();
+  if(copieAuthorArray[operaIndex][grade].length === 0 ) copieAuthorArray[operaIndex][grade] = authorArray[operaIndex][grade];
 
+	randomNum = Math.floor(Math.random() * copieAuthorArray[operaIndex][grade].length);
+	document.getElementById("versuri").innerHTML = copieAuthorArray[operaIndex][grade][randomNum].versuri;
+ 
+
+  console.log(authorArray[operaIndex][grade]);
+  console.log(copieAuthorArray[operaIndex][grade]);
+  
+// copieAuthorArray = copieAuthorArray[operaIndex][grade].splice(randomNum,1);
+  inputText();
 
 
 }
