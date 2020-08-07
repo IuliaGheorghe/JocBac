@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="CSS/style.css"/>
 	<link rel="stylesheet" href="CSS/opera.css"/>
 	<link rel="stylesheet" href="CSS/game.css"/>
+	<link rel="stylesheet" href="CSS/opera-versuri.css"/>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
@@ -77,36 +78,11 @@
 	    </div>
 	</div>
 
-	<div class="content" id="cont-dif" style="display: none;">
-		<div id="main-text">Alege Dificultatea</div>
+	<div class="content" id="cont-versuri" style="display: none;">
+		<div id="opera"></div>
+		<div id="autor"></div>
 		
-		<div id="difficulty">
-		  <button type="button" onclick="difficultyFunction(0);">Ușor</button>
-		  <button type="button" onclick="difficultyFunction(1);">Mediu</button>
-		  <button type="button" onclick="difficultyFunction(2);">Dificil</button>
-		  <br><br><br>
-	    </div>
-	</div>
-    
-    <div class="content" id="cont-vers" style="display: none;">
-	<div id="main-text">Completează Versurile</div>
-	<div id="versuri"></div>
-	<div id="raspunsuri">
-		<input type="text" class="raspuns" placeholder="Raspunsul tau...">
-	</div>
-	<button type="button" onclick="verif()">Verifică</button>
-	</div>
-
-    <div id="good-ans" style="display: none;">
-      <div>Corect!</div>
-      <button type="button" onclick="newGame()">Următoarele Versuri</button>
-    </div>
-    <div id="wrong-ans" style="display: none;">
-      <div>Răspunsul corect era:</div>
-      <div id="ans"></div>
-      <button type="button" onclick="newGame()">Următoarele Versuri</button>
-    </div>
-    <script src="JS/game.js"></script>
-    
+		<div id="versuri">
+	<script type="text/javascript" src="JS/opera-versuri.js"></script>
 </body>
 </html>

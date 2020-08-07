@@ -32,6 +32,10 @@ header a{
     width: 150px;
 }
 
+#menu{
+	display: flex;
+}
+
 #menu a{
 	font-size: 20px;
 	letter-spacing: 1px;

@@ -1,0 +1,21 @@
+#opera{
+
+	font-size: 40px;
+    padding: 80px;
+    color: darkcyan;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+#autor{
+	padding: 20px;
+}
+
+#versuri{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60vw;
+	border-radius: 20px;
+	text-align: center;
+}
