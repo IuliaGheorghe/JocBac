@@ -18,6 +18,7 @@
 	    </div>
 	    <div id="menu">
 	    	<a href="index.html"><div class="option">Acasă</div></a>
+	    	<a href="game.html"><div class="option">Antrenament</div></a>
 	    	<a href="opere.html"><div class="option">Opere</div></a>
 	    	<a href="challenge.html"><div class="option">Provocare</div></a>
 	    </div>
@@ -26,7 +27,7 @@
 	<div class="content" id="cont-opera">
 		<div id="main-text">Alege Operele</div>
 
-		<div id="description">Alege <b>minim trei opere</b> pentru a începe o provocare. Vei avea <b>15 întrebari</b> si cate <b>un minut</b> la dispozitie pentru a raspunde la fiecare. Nivelul de dificultate va fi echivalent cu cel <b>dificil</b> din sectiunea de antrenament. Intrebarile vor fi alese in mod random din una, mai multe sau din toate operele selectate de tine.</div>
+		<div id="description">Alege <b>minim trei opere</b> pentru a începe o provocare. Vei avea <b>10 întrebari</b> si câte <b>un minut</b> la dispozitie pentru a raspunde la fiecare. Nivelul de dificultate va fi echivalent cu cel <b>dificil</b> din sectiunea de antrenament. Întrebarile vor fi alese in mod random din una, mai multe sau din toate operele selectate de tine. Poti raspunde si partial la o intrebare. In cazul in care ramai fara timp se vor lua in calcul pentru punctaj doar raspunsurile scrise pana la oprirea cronometrului. </div>
 		
 		<div id="options">
 
@@ -95,18 +96,33 @@
 	</div>
 
     <div id="good-ans" style="display: none;">
+      
+      <div class="scor"></div>
       <div>Corect!</div>
       <button type="button" onclick="newGame()">Următoarele Versuri</button>
     </div>
     <div id="wrong-ans" style="display: none;">
+      <div class="scor"></div>
+      <div class="user-ans"></div>
       <div>Răspunsul corect era:</div>
       <div id="ans"></div>
       <button type="button" onclick="newGame()">Următoarele Versuri</button>
     </div>
     <div id="time-out" style="display: none;">
+      <div class="scor"></div>
+      <div class="user-ans"></div>
       <div>Ai rămas fără timp! Răspunsul corect era:</div>
       <div id="ans-time-out"></div>
       <button type="button" onclick="newGame()">Următoarele Versuri</button>
+    </div>
+    <div id="user-result" style="display: none;">
+    	<div id="txt">Felicitari!</div>
+    	<div id="user-score">50 puncte</div>
+    	<img id="first" src="Images/gold.png" style="display: none;" />
+    	<img id="second" src="Images/silver.png" style="display: none;"  />
+    	<img id="third" src="Images/bronze.png" style="display: none;" />
+    	<img id="love"  src="https://clipart.info/images/ccovers/1499793238facebook-love-emoji-like-png.png" />
+    	<button type="button" onclick="location.href='challenge.html';">Provocare Noua</button>
     </div>
     <script src="JS/challenge.js"></script>
     

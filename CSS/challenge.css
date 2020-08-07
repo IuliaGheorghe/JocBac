@@ -6,3 +6,63 @@
 	font-size: 30px;
 	padding-bottom: 40px;
 }
+
+.scor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 600px;
+	height: 120px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:#000;
+}
+
+.user-ans{
+	text-align: center;
+	font-size: 25px;
+	padding: 20px;
+}
+
+
+
+#user-result{
+	margin: 40px;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#txt{
+	font-size: 80px;
+	color:darkcyan;
+	padding: 30px;
+}
+
+#user-score{
+	width: 600px;
+	background-color: gold;
+	color: #000;
+	font-size: 45px;
+	padding: 30px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+}
+
+#user-result img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: auto;
+	height: auto
+}

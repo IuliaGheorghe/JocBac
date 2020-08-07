@@ -460,8 +460,8 @@ let Eminescu = [
   },
   {
     versuri: "Pe .......-n ....... de ........,<br>........ spre sat în ........,<br>Ne-om da sărutări pe cale,<br>........ ca florile .........",
-    raspuns: ["cărare","bolți","frunze", "Apucând", "vale", "ascunse"],
-    r: "Pe <b>cărare</b>-n <b>bolți</b> de <b>frunze</b>,<br><b>Apucând</b> spre sat în <b>vale</b>,<br>Ne-om da sărutări pe cale,<br>Dulci ca florile <b>ascunse.</b>"
+    raspuns: ["cărare","bolți","frunze", "Apucând", "vale", "Dulci", "ascunse"],
+    r: "Pe <b>cărare</b>-n <b>bolți</b> de <b>frunze</b>,<br><b>Apucând</b> spre sat în <b>vale</b>,<br>Ne-om da sărutări pe cale,<br><b>Dulci</b> ca florile <b>ascunse.</b>"
   },
   {
     versuri: "Și ........ l-al ........ prag,<br>Vom vorbi-n ........:<br>........ noastră ........ nime,<br>Cui ce-i pasă că-mi ești ........»?",
@@ -873,8 +873,8 @@ let Arghezi = [
 
   {
     versuri: "Când mi s-a tocit ........ .........<br>Am ........-o să crească<br>Şi nu mi-a crescut -<br>Sau nu ........ mai am .........",
-    raspuns: ["tocit","îngerească","lăsat", "o", "cunoscut"],
-    r: "Când mi s-a <b>tocit</b> unghia <b>îngerească</b><br>Am <b>lăsat</b>-o să crească<br>Şi nu mi-a crescut -<br>Sau nu <b>o</b> mai am <b>cunoscut</b>."
+    raspuns: ["unghia","îngerească","lăsat", "o", "cunoscut"],
+    r: "Când mi s-a tocit <b>unghia</b> <b>îngerească</b><br>Am <b>lăsat</b>-o să crească<br>Şi nu mi-a crescut -<br>Sau nu <b>o</b> mai am <b>cunoscut</b>."
   },
   {
     versuri: "Când mi s-a ........ unghia .........<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>........ nu o mai am .........",

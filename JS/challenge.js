@@ -132,8 +132,8 @@ let options =[
   },
   {
     versuri: "Pe .......-n ....... de ........,<br>........ spre sat în ........,<br>Ne-om da sărutări pe cale,<br>........ ca florile .........",
-    raspuns: ["cărare","bolți","frunze", "Apucând", "vale", "ascunse"],
-    r: "Pe <b>cărare</b>-n <b>bolți</b> de <b>frunze</b>,<br><b>Apucând</b> spre sat în <b>vale</b>,<br>Ne-om da sărutări pe cale,<br>Dulci ca florile <b>ascunse.</b>"
+    raspuns: ["cărare","bolți","frunze", "Apucând", "vale", "Dulci", "ascunse"],
+    r: "Pe <b>cărare</b>-n <b>bolți</b> de <b>frunze</b>,<br><b>Apucând</b> spre sat în <b>vale</b>,<br>Ne-om da sărutări pe cale,<br><b>Dulci</b> ca florile <b>ascunse.</b>"
   },
   {
     versuri: "Și ........ l-al ........ prag,<br>Vom vorbi-n ........:<br>........ noastră ........ nime,<br>Cui ce-i pasă că-mi ești ........»?",
@@ -237,8 +237,8 @@ let options =[
 
   {
     versuri: "Când mi s-a tocit ........ .........<br>Am ........-o să crească<br>Şi nu mi-a crescut -<br>Sau nu ........ mai am .........",
-    raspuns: ["tocit","îngerească","lăsat", "o", "cunoscut"],
-    r: "Când mi s-a <b>tocit</b> unghia <b>îngerească</b><br>Am <b>lăsat</b>-o să crească<br>Şi nu mi-a crescut -<br>Sau nu <b>o</b> mai am <b>cunoscut</b>."
+    raspuns: ["unghia","îngerească","lăsat", "o", "cunoscut"],
+    r: "Când mi s-a tocit <b>unghia</b> <b>îngerească</b><br>Am <b>lăsat</b>-o să crească<br>Şi nu mi-a crescut -<br>Sau nu <b>o</b> mai am <b>cunoscut</b>."
   },
   {
     versuri: "Când mi s-a ........ unghia .........<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>........ nu o mai am .........",
@@ -555,7 +555,8 @@ let options =[
  let randomNum;
  let randomNumber;
  let score=0;
- let questions=3;
+ let possibleScore = 0;
+ let questions=10;
 
  for (let i=0;i<document.getElementsByClassName("card").length;i++)
  	{
@@ -617,8 +618,19 @@ function diacritice(strAccents) {
 
 let ok = 0;
 
-function verif(){
-    let arrLength = options[randomNumber][randomNum].raspuns.length;
+let userAnswersCopie = [];
+
+function subverif(){
+	let userAnswers =[];
+
+	let arrLength = options[randomNumber][randomNum].raspuns.length;
+
+	possibleScore+=arrLength*5;
+
+	for(let i=0;i<arrLength;i++)
+		userAnswers[i]="NULL";
+   
+
     for(let i=0;i<arrLength;i++){
 
     	let a;
@@ -628,6 +640,11 @@ function verif(){
 		a = a.replace(/\s/g,'');
 		a = a.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
 		a = diacritice(a);
+        
+        if (a==="")
+        userAnswers[i] = ((i+1) +". " + "NULL"+ ",").toString();
+        else
+		userAnswers[i] = ((i+1) +". " + a+ ",").toString();
 
 		let b;
 
@@ -641,20 +658,38 @@ function verif(){
 
 
     	if(a !== b) ok++;
+    	if(a===b) score+=5;
+
+    	console.log(userAnswers);
         
-  
+        userAnswersCopie=userAnswers;
 
+      
     }
+}
 
+function verif(){
+
+
+    subverif();
+    
     if(ok===0) {
     	document.getElementById("cont-vers").style.display="none";
+    	document.getElementById("time-out").style.display="none";
     	document.getElementById("good-ans").style.display="flex";
-    	score++;
+        console.log(score);
+    	document.getElementsByClassName("scor")[0].innerHTML ="Scor: " + score + " puncte";
     }
     else {
         document.getElementById("cont-vers").style.display="none";
+        document.getElementById("time-out").style.display="none";
     	document.getElementById("wrong-ans").style.display="flex";
+    	console.log(userAnswersCopie);
+    	document.getElementsByClassName("user-ans")[0].innerHTML = "Raspunsurile tale: <br>" +userAnswersCopie.join(" ");
+    	console.log(score);
+    	document.getElementsByClassName("scor")[1].innerHTML ="Scor: " + score + " puncte";
         document.getElementById("ans").innerHTML = options[randomNumber][randomNum].r;
+
     }
 
 }
@@ -662,30 +697,117 @@ function verif(){
 const removeElements = (elms) => elms.forEach(el => el.remove());
 
 function newGame(){
-	document.getElementsByClassName("raspuns")[0].value="";
-	let clone = document.getElementsByClassName("raspuns")[0].cloneNode( true );
+	if(questions>0)
 
-	removeElements( document.querySelectorAll(".raspuns") );
-	    document.getElementById('raspunsuri').appendChild( clone );
-
-	ok=0;
-	document.getElementById("good-ans").style.display="none";
-	document.getElementById("wrong-ans").style.display="none";
-	let arrLength = options[randomNumber][randomNum].raspuns.length;
-	display();
-
-	document.getElementById("cont-vers").style.display="flex";
+	{document.getElementsByClassName("raspuns")[0].value="";
+		let clone = document.getElementsByClassName("raspuns")[0].cloneNode( true );
+	
+		removeElements( document.querySelectorAll(".raspuns") );
+		    document.getElementById('raspunsuri').appendChild( clone );
+	
+		ok=0;
+		document.getElementById("good-ans").style.display="none";
+		document.getElementById("wrong-ans").style.display="none";
+		let arrLength = options[randomNumber][randomNum].raspuns.length;
+		display();
+	
+		document.getElementById("cont-vers").style.display="flex";}
+		else showScore();
 
 }
 
 function showScore(){
-	alert(score);
+	document.getElementById("cont-vers").style.display="none";
+	document.getElementById("wrong-ans").style.display="none";
+	document.getElementById("good-ans").style.display="none";
+	document.getElementById("time-out").style.display="none";
+	document.getElementById("user-result").style.display="flex";
+
+	document.getElementById("user-score").innerHTML = score;
+	console.log(score);
+	console.log(possibleScore);
+	console.log(typeof score);
+	console.log(typeof possibleScore);
+	console.log(score === possibleScore);
+	console.log(possibleScore-30);
+	console.log(score < possibleScore-30);
+	if(score===possibleScore) {
+		document.getElementById("first").style.display="flex";
+		document.getElementById("second").style.display="none";
+		document.getElementById("third").style.display="none";
+		document.getElementById("love").style.display="none";
+
+}
+	else if((score>=possibleScore-20) && (score<possibleScore) ) {
+		document.getElementById("first").style.display="none";
+		document.getElementById("second").style.display="flex";
+		document.getElementById("third").style.display="none";
+		document.getElementById("love").style.display="none";
+
+}
+	else if((score>=possibleScore-30) && (score<possibleScore-20) ) {
+		document.getElementById("first").style.display="none";
+		document.getElementById("second").style.display="none";
+		document.getElementById("third").style.display="flex";
+		document.getElementById("love").style.display="none";
+
+}
+	else if((score<possibleScore-30)){
+		document.getElementById("first").style.display="none";
+		document.getElementById("second").style.display="none";
+		document.getElementById("third").style.display="none";
+		document.getElementById("love").style.display="flex";
+
+}
+
+}
+
+var fiveMinutes = 60 * 1;
+displayVar = document.querySelector('#time');
+
+
+function startTimer(duration, display) {
+        var timer = duration, minutes, seconds;
+	    
+
+        let timp = setInterval(function () {
+
+        if(document.getElementById("cont-vers").style.display==="none") {
+        	timer = duration;
+        	clearTimeout(timp);
+        }
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+
+        display.textContent = "Timp Rămas: " + minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            clearTimeout(timp);
+            subverif();
+            document.getElementById("cont-vers").style.display="none";
+            if(document.getElementById("wrong-ans").style.display==="none")
+            {document.getElementById("time-out").style.display="flex";
+
+        document.getElementsByClassName("scor")[2].innerHTML ="Scor: " + score + " puncte";
+        document.getElementsByClassName("user-ans")[1].innerHTML = "Raspunsurile tale: <br>" +userAnswersCopie.join(" ");
+        document.getElementById("ans-time-out").innerHTML = options[randomNumber][randomNum].r;
+    }
+            
+        }
+    }, 1000);
 }
 
 function display(){
 	console.log(opereSelectate);
 	if(questions!==0)
 	{	
+		document.getElementById("wrong-ans").style.display="none";
+		document.getElementById("good-ans").style.display="none";
+		document.getElementById("time-out").style.display="none";
 	    randomNumber = Math.floor(Math.random() * opereSelectate.length);
 	    randomNumber=opereSelectate[randomNumber];
 	    console.log(randomNumber);
@@ -694,14 +816,12 @@ function display(){
 	    console.log(options[randomNumber][randomNum]);
 	    document.getElementById("versuri").innerHTML = options[randomNumber][randomNum].versuri;
 	    inputText();
+	    
+        startTimer(fiveMinutes, displayVar);
 	    questions--;}
-	    else {
+	    else 
 	    showScore();
 
-	    location.reload();
-	    return false;
-
-	}
    
 }
 
