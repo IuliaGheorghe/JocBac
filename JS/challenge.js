@@ -87,7 +87,7 @@ let options =[
   },
   {
     versuri: "În ........ ........ de soare<br>Grămădești-n a ta .......<br>Și câmpiile ........<br>Și ......... .........;",
-    raspuns: ["zadar","râuri","Grămădești","gândire","Asire", "întunecata", "mare"],
+    raspuns: ["zadar","râuri","gândire","Asire", "întunecata", "mare"],
     r: "În <b>zadar</b> <b>râuri</b> de soare<br>Grămădești-n a ta <b>gândire</b><br>Și câmpiile <b>Asire</b><br>Și <b>întunecata</b> <b>mare</b>;"
   },
   {
@@ -242,7 +242,7 @@ let options =[
   },
   {
     versuri: "Când mi s-a ........ unghia .........<br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br>........ nu o mai am .........",
-    raspuns: ["tocit","îngerească","cunoscut", "Sau"],
+    raspuns: ["tocit","îngerească", "Sau", "cunoscut"],
     r: "Când mi s-a <b>tocit</b> unghia <b>îngerească</b><br>Am lăsat-o să crească<br>Şi nu mi-a crescut -<br><b>Sau</b> nu o mai am <b>cunoscut</b>."
   },
 
@@ -277,7 +277,7 @@ let options =[
   {
     versuri: "Des cercetat de ........<br>În ........ de râu şi-n ......... unsă,<br>Împărăţea peste ........<br>........ Crypto, inimă ascunsă,",
     raspuns: ["pădureţi", "pat","humă", "bureţi", "Crai"],
-    r: "Des cercetat de <b>pădureţi</b><br>În pat de râu şi-n humă unsă,<br>Împărăţea peste <b>bureţi</b><br><b>Crai</b> Crypto, inimă ascunsă,"
+    r: "Des cercetat de <b>pădureţi</b><br>În <b>pat</b> de râu şi-n <b>humă</b> unsă,<br>Împărăţea peste <b>bureţi</b><br><b>Crai</b> Crypto, inimă ascunsă,"
   },
 
   {
@@ -571,14 +571,18 @@ function aleg(autor,opera,index){
 
   if(clicksOpera[index]===0)
   	{
-  		document.getElementsByClassName("card")[index].style.backgroundColor = "green";
+  		document.getElementsByClassName("card")[index].style.backgroundColor = "darkorchid";
+      document.getElementsByClassName("opera")[index].style.color = "white";
+      document.getElementsByClassName("author")[index].style.color = "white";
         clicksOpera[index]++;
 }
 
   	
   else
     {
-        document.getElementsByClassName("card")[index].style.backgroundColor = "darkcyan";
+        document.getElementsByClassName("card")[index].style.backgroundColor = "#fff";
+      document.getElementsByClassName("opera")[index].style.color = "#000";
+      document.getElementsByClassName("author")[index].style.color = "#000";
         opereArr[index] = "none";
         clicksOpera[index]=0;
 }
@@ -677,6 +681,11 @@ function verif(){
     	document.getElementById("cont-vers").style.display="none";
     	document.getElementById("time-out").style.display="none";
     	document.getElementById("good-ans").style.display="flex";
+
+      if(questions===0)
+         document.getElementsByClassName("newgame")[0].innerHTML = "Finalizează";
+
+
         console.log(score);
     	document.getElementsByClassName("scor")[0].innerHTML ="Scor: " + score + " puncte";
     }
@@ -684,8 +693,10 @@ function verif(){
         document.getElementById("cont-vers").style.display="none";
         document.getElementById("time-out").style.display="none";
     	document.getElementById("wrong-ans").style.display="flex";
+      if(questions===0)
+         document.getElementsByClassName("newgame")[1].innerHTML = "Finalizează";
     	console.log(userAnswersCopie);
-    	document.getElementsByClassName("user-ans")[0].innerHTML = "Raspunsurile tale: <br>" +userAnswersCopie.join(" ");
+    	document.getElementsByClassName("user-ans")[0].innerHTML = "Răspunsurile tale: <br><br>" +userAnswersCopie.join(" ");
     	console.log(score);
     	document.getElementsByClassName("scor")[1].innerHTML ="Scor: " + score + " puncte";
         document.getElementById("ans").innerHTML = options[randomNumber][randomNum].r;
@@ -766,16 +777,15 @@ var fiveMinutes = 60 * 1;
 displayVar = document.querySelector('#time');
 
 
+
 function startTimer(duration, display) {
+        let oktime=0;
         var timer = duration, minutes, seconds;
 	    
 
         let timp = setInterval(function () {
 
-        if(document.getElementById("cont-vers").style.display==="none") {
-        	timer = duration;
-        	clearTimeout(timp);
-        }
+        
         minutes = parseInt(timer / 60, 10);
         seconds = parseInt(timer % 60, 10);
 
@@ -785,15 +795,25 @@ function startTimer(duration, display) {
 
         display.textContent = "Timp Rămas: " + minutes + ":" + seconds;
 
+        if(document.getElementById("cont-vers").style.display==="none") {
+          timer = duration;
+          clearTimeout(timp);
+          oktime++;
+        }
+
         if (--timer < 0) {
-            clearTimeout(timp);
+          if(oktime===0)
+            {timer = duration;
+             clearTimeout(timp);}
             subverif();
             document.getElementById("cont-vers").style.display="none";
             if(document.getElementById("wrong-ans").style.display==="none")
             {document.getElementById("time-out").style.display="flex";
+          if(questions===0)
+         document.getElementsByClassName("newgame")[2].innerHTML = "Finalizează";
 
         document.getElementsByClassName("scor")[2].innerHTML ="Scor: " + score + " puncte";
-        document.getElementsByClassName("user-ans")[1].innerHTML = "Raspunsurile tale: <br>" +userAnswersCopie.join(" ");
+        document.getElementsByClassName("user-ans")[1].innerHTML = "Răspunsurile tale: <br><br>" +userAnswersCopie.join(" ");
         document.getElementById("ans-time-out").innerHTML = options[randomNumber][randomNum].r;
     }
             
@@ -820,7 +840,11 @@ function display(){
         startTimer(fiveMinutes, displayVar);
 	    questions--;}
 	    else 
-	    showScore();
+	    
+      {
+       
+        showScore();
+      }
 
    
 }

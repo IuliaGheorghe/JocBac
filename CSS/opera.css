@@ -9,16 +9,18 @@
 
 .card{
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 	width: 300px;
-	background: darkcyan;
+	background: #fff;
 	border-radius: 10px;
 	margin: 20px;
+	transition: width ease-in 0.8s;
 }
 
 .card:hover{
-	
-	background: lightseagreen;
+	width: 380px;
 	cursor: pointer;
 }
 
@@ -28,7 +30,7 @@
 	justify-content: center;
 	align-items: center;
     text-align: center;
-    color: white;
+    color: black;
     padding: 25px;
     height: 50px;
 }
@@ -47,7 +49,7 @@ img{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	color: white;
+	color: black;
 	padding: 25px;
 	height: 50px;
 }

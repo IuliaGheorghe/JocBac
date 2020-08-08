@@ -2,12 +2,13 @@
 
 	font-size: 40px;
     padding: 80px;
-    color: darkcyan;
+    color: #fff;
     text-align: center;
     padding-bottom: 0;
 }
 
 #autor{
+	color: #fff;
 	padding: 20px;
 	text-align: center;
 }
@@ -19,4 +20,8 @@
 	width: 60vw;
 	border-radius: 20px;
 	text-align: center;
+}
+
+button{
+	width: 300px;
 }

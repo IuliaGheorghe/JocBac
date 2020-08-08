@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="CSS/opera.css"/>
 	<link rel="stylesheet" href="CSS/game.css"/>
 	<link rel="stylesheet" href="CSS/opera-versuri.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
@@ -18,9 +19,16 @@
 	    </div>
 	    <div id="menu">
 	    	<a href="index.html"><div class="option">Acasă</div></a>
-	    	<a href="game.html"><div class="option">Antrenament</div></a>
 	    	<a href="opere.html"><div class="option">Opere</div></a>
 	    	<a href="challenge.html"><div class="option">Provocare</div></a>
+	    </div>
+	    <div id="res-menu">
+	    <a href="javascript:void(0);" class="icon" onclick="menu()"><i class="fa fa-bars" aria-hidden="true" id="menu-icon"></i></a>
+	    <div id="second-menu" >
+	    	<a href="index.html"><div class="option">Acasă</div></a>
+	    	<a href="opere.html"><div class="option">Opere</div></a>
+	    	<a href="challenge.html"><div class="option">Provocare</div></a>
+	    </div>
 	    </div>
 	</header>
 
@@ -89,5 +97,6 @@
         <button id="inapoi" onclick="location.href='opere.html'">Înapoi</button>
     </div>
 	<script type="text/javascript" src="JS/opera-versuri.js"></script>
+	<script type="text/javascript" src="JS/menu.js"></script>
 </body>
 </html>

@@ -2,20 +2,38 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 
 }
 
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 header{
-	background-color: darkcyan;
+	position: relative;
+	background-color: #fff;
 	
 	display: flex;
 	justify-content: space-between;
+	border-bottom: 6px solid #fff;
 }
 
 header a{
 	
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	
 	font-weight: 300;
 	letter-spacing: 3px;
@@ -32,6 +50,7 @@ header a{
 	justify-content: center;
     align-items: center;
     width: 180px;
+    border-bottom: 6px solid #fff;
 }
 
 #menu{
@@ -49,7 +68,54 @@ header a{
 }
 
 .option:hover{
-	background-color: lightseagreen;
+	border-bottom-color:#000;
+}
+
+.content{
+	border-top:1px solid #fff;
+}
+
+#res-menu{
+	position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+	display: flex;
+	display: none;
+}
+
+
+#res-menu .fa {
+	text-align: center;
+	font-size: 25px;
+	border: 3px solid #000;
+	color:#000;
+	border-radius: 50%;
+	padding: 15px;
+	margin: 20px;
+}
+
+#second-menu{
+
+    background-color: #fff;
+    
+	display: flex;
+
+	flex-direction: column;
+	height: 100vh;
+
+}
+
+#second-menu .option{
+
+    width: 350px;
+    height: 120px;
+}
+
+#second-menu .option:hover{
+
+    background-color: #000;
+    color:#fff;
 }
 
 .content{
@@ -59,22 +125,24 @@ header a{
 	align-items: center;
 	padding: 40px;
 
+
 }
 
 #welcome-text{
 	font-size: 80px;
 	font-weight: bold;
-	color: darkcyan;
+	color: #fff;
 	padding: 100px;
 	letter-spacing: 4px;
 	text-align: center;
 }
 
 #description{
-	text-align: center;
+
+
 	font-size: 25px;
 	letter-spacing: 1.2px;
-	color: #000;
+	color: #fff;
 
 }
 
@@ -82,20 +150,38 @@ button{
 	width: 300px;
 	margin: 80px;
 	padding: 20px 40px;
-	border: none;
 	font-size: 25px;
-	background-color: darkcyan;
+	background-color: transparent;
+	border: 1px solid #fff;
 	color:#fff;
 	letter-spacing: 2.4px;
 	border-radius: 4px;
+	transition: background-color linear 1s;
 
 }
 
 button:hover{
-	background-color: lightseagreen;
+	background-color: darkorchid;
 	cursor: pointer;
 }
 
 
+
+
+@media screen and (max-width: 800px){
+	#menu{
+		display: none;
+	}
+
+
+	#res-menu{
+		display: flex;
+	}
+
+	#second-menu{
+		display: none;
+	}
+
+}
 
 

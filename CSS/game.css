@@ -2,7 +2,7 @@
     
     font-size: 40px;
     padding: 80px;
-    color: darkcyan;
+    color: #fff;
     text-align: center;
 }
 
@@ -16,19 +16,20 @@
 
 button{
 	width: 80vw;
-	margin: 40px;
+	margin: 20px;
 }
 
+
 #versuri{
-	width: 100vw;
-	background: gold;
+	border:2px solid #fff;
+	width: 50vw;
 	padding: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #000;
-	font-size: 20px;
-	line-height: 30px;
+	color: #fff;
+	font-size: 22px;
+	line-height: 35px;
 
 }
 
@@ -40,13 +41,21 @@ button{
 }
 
 input[type=text]{
-    
-    width: 70vw;
+	color:#fff;
+	border:none;
+	border-bottom: 2px solid #fff;
+    background-color: transparent;
+    width: 40vw;
     text-align: center;
 	padding: 10px;
-	font-size: 30px;
+	font-size: 25px;
 	margin: 20px;
 }
+
+input[type=text]::placeholder{
+	color: #fff;
+}
+
 
 #good-ans, #wrong-ans, #time-out{
 	display: flex;
@@ -55,7 +64,7 @@ input[type=text]{
 	align-items: center;
 	height: 100vh;
 	font-size: 60px;
-	background-color: lightseagreen;
+	background-color: transparent;
 	color:#fff;
 }
 
@@ -65,39 +74,4 @@ input[type=text]{
 
 }
 
-#good-ans button, #wrong-ans button, #time-out button{
-	background-color: #fff;
-	color:darkcyan;
-	border: 1px solid #fff;
-	text-align: center;
-}
-
-#good-ans button:hover{
-	background-color: darkcyan;
-	color:#fff;
-}
-
-#wrong-ans button:hover{
-	background-color: darkcyan;
-	color:#fff;
-}
-
-#time-out button:hover{
-	background-color: darkcyan;
-	color:#fff;
-}
-
-
-#wrong-ans, #time-out{
-	background-color: gold;
-	color: #000;
-}
-
-#wrong-ans button{
-    color:#000;
-}
-
-#time-out button{
-    color:#000;
-}
 

@@ -446,7 +446,7 @@ let Eminescu = [
   {
     versuri: "Când prin ........ s-a fi ........<br>Luna-n ......... cea de ........,<br>Mi-i ținea de ........,<br>Te-oi ținea de după gât.",
     raspuns: ["crengi" , "ivit", "noaptea", "vară", "subsuoară"],
-    r: "Când prin <b>crengi</b> s-a fi <b>ivit</b><br>Luna-n <b>noaptea<b> cea de <b>vară</b>,<br>Mi-i ținea de <b>subsuoară</b>,<br>Te-oi ținea de după gât."
+    r: "Când prin <b>crengi</b> s-a fi <b>ivit</b><br>Luna-n <b>noaptea</b> cea de <b>vară</b>,<br>Mi-i ținea de <b>subsuoară</b>,<br>Te-oi ținea de după gât."
   },
   {
     versuri: "Și de-a soarelui ........<br>Voi fi roșie ca ........,<br>Mi-oi ........ de-aur ........,<br>Să-ți astup cu dânsul gura.",

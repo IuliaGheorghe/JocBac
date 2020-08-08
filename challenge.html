@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="CSS/opera.css"/>
 	<link rel="stylesheet" href="CSS/game.css"/>
 	<link rel="stylesheet" href="CSS/challenge.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
@@ -18,16 +19,23 @@
 	    </div>
 	    <div id="menu">
 	    	<a href="index.html"><div class="option">Acasă</div></a>
-	    	<a href="game.html"><div class="option">Antrenament</div></a>
 	    	<a href="opere.html"><div class="option">Opere</div></a>
 	    	<a href="challenge.html"><div class="option">Provocare</div></a>
+	    </div>
+	    <div id="res-menu">
+	    <a href="javascript:void(0);" class="icon" onclick="menu()"><i class="fa fa-bars" aria-hidden="true" id="menu-icon"></i></a>
+	    <div id="second-menu" >
+	    	<a href="index.html"><div class="option">Acasă</div></a>
+	    	<a href="opere.html"><div class="option">Opere</div></a>
+	    	<a href="challenge.html"><div class="option">Provocare</div></a>
+	    </div>
 	    </div>
 	</header>
 
 	<div class="content" id="cont-opera">
 		<div id="main-text">Alege Operele</div>
 
-		<div id="description">Alege <b>minim trei opere</b> pentru a începe o provocare. Vei avea <b>10 întrebari</b> si câte <b>un minut</b> la dispozitie pentru a raspunde la fiecare. Nivelul de dificultate va fi echivalent cu cel <b>dificil</b> din sectiunea de antrenament. Întrebarile vor fi alese in mod random din una, mai multe sau din toate operele selectate de tine. Poti raspunde si partial la o intrebare. In cazul in care ramai fara timp se vor lua in calcul pentru punctaj doar raspunsurile scrise pana la oprirea cronometrului. </div>
+		<div id="description">Alege <b>minim trei opere</b> pentru a începe o provocare. Vei avea <b>10 întrebări</b> și câte <b>un minut</b> la dispoziție pentru a răspunde la fiecare. Nivelul de dificultate va fi echivalent cu cel <b>dificil</b> din secțiunea de antrenament. Întrebările vor fi alese în mod random din una, mai multe sau din toate operele selectate de tine. Poți răspunde și parțial la o întrebare. În cazul in care rămai fără timp se vor lua in calcul pentru punctaj doar răspunsurile scrise până la oprirea cronometrului. </div>
 		
 		<div id="options">
 
@@ -97,33 +105,37 @@
 
     <div id="good-ans" style="display: none;">
       
-      <div class="scor"></div>
+      
       <div>Corect!</div>
-      <button type="button" onclick="newGame()">Următoarele Versuri</button>
+      <div class="scor"></div>
+      <button type="button" class="newgame" onclick="newGame()">Următoarele Versuri</button>
     </div>
     <div id="wrong-ans" style="display: none;">
-      <div class="scor"></div>
-      <div class="user-ans"></div>
+      
       <div>Răspunsul corect era:</div>
       <div id="ans"></div>
-      <button type="button" onclick="newGame()">Următoarele Versuri</button>
-    </div>
-    <div id="time-out" style="display: none;">
       <div class="scor"></div>
       <div class="user-ans"></div>
+      <button type="button" class="newgame" onclick="newGame()">Următoarele Versuri</button>
+    </div>
+    <div id="time-out" style="display: none;">
+      
       <div>Ai rămas fără timp! Răspunsul corect era:</div>
       <div id="ans-time-out"></div>
-      <button type="button" onclick="newGame()">Următoarele Versuri</button>
+      <div class="scor"></div>
+      <div class="user-ans"></div>
+      <button type="button" class="newgame" onclick="newGame()">Următoarele Versuri</button>
     </div>
     <div id="user-result" style="display: none;">
-    	<div id="txt">Felicitari!</div>
+    	<div id="txt">Felicitări!</div>
     	<div id="user-score">50 puncte</div>
     	<img id="first" src="Images/gold.png" style="display: none;" />
     	<img id="second" src="Images/silver.png" style="display: none;"  />
     	<img id="third" src="Images/bronze.png" style="display: none;" />
     	<img id="love"  src="https://clipart.info/images/ccovers/1499793238facebook-love-emoji-like-png.png" />
-    	<button type="button" onclick="location.href='challenge.html';">Provocare Noua</button>
+    	<button type="button" onclick="location.href='challenge.html';">Provocare Nouă</button>
     </div>
+    <script src="JS/menu.js"></script>
     <script src="JS/challenge.js"></script>
     
 </body>
