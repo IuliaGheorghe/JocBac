@@ -25,3 +25,14 @@
 button{
 	width: 300px;
 }
+
+@media screen and (max-width: 420px){
+	#opera{
+		padding: 20px;
+	}
+
+	#versuri{
+		width: 80vw;
+		font-size: 18px;
+	}
+}

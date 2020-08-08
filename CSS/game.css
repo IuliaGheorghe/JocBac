@@ -58,20 +58,47 @@ input[type=text]::placeholder{
 
 
 #good-ans, #wrong-ans, #time-out{
+
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	font-size: 60px;
+	font-size: 50px;
 	background-color: transparent;
 	color:#fff;
 }
 
+#good-ans button, #wrong-ans button, #time-out button {
+	margin: 60px;
+	letter-spacing: 1px;
+}
+
 #ans, #ans-time-out{
+	text-align: left;
 	font-size: 20px;
-	padding: 50px;
+	padding: 50px 0;
 
 }
 
+@media screen and (max-width: 650px){
+	#main-text{
+		padding: 60px 20px;
+	}
 
+	#wrong-ans, #time-out{
+		padding: 20px;
+		height: 150vh;
+		font-size: 30px;
+	}
+
+	#versuri{
+		width: 80vw;
+		padding: 20px;
+	}
+
+	input[type=text]{
+		width: 70vw;
+	}
+}
