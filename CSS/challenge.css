@@ -53,7 +53,7 @@ button{
 
 #user-score{
 	width: 600px;
-	background-color: gold;
+	background-color: #fff;
 	color: #000;
 	font-size: 45px;
 	padding: 30px;
@@ -93,6 +93,7 @@ button{
 	}
 
 	#txt{
+		padding-top:40px;
         font-size: 50px;
 	}
 }

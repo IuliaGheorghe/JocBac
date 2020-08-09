@@ -58,12 +58,9 @@ input[type=text]::placeholder{
 
 
 #good-ans, #wrong-ans, #time-out{
-
+    padding: 80px;
 	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	display: block;
 	height: 100vh;
 	font-size: 50px;
 	background-color: transparent;
@@ -73,6 +70,12 @@ input[type=text]::placeholder{
 #good-ans button, #wrong-ans button, #time-out button {
 	margin: 60px;
 	letter-spacing: 1px;
+}
+
+.ans-cnt{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #ans, #ans-time-out{
@@ -88,8 +91,7 @@ input[type=text]::placeholder{
 	}
 
 	#wrong-ans, #time-out{
-		padding: 20px;
-		height: 150vh;
+		padding: 50px 20px;
 		font-size: 30px;
 	}
 
@@ -100,5 +102,8 @@ input[type=text]::placeholder{
 
 	input[type=text]{
 		width: 70vw;
+	}
+	#good-ans button, #wrong-ans button, #time-out button{
+		margin: 5px;
 	}
 }

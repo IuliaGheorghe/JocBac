@@ -2042,11 +2042,11 @@ function verif(){
 
     if(ok===0) {
     	document.getElementById("cont-vers").style.display="none";
-    	document.getElementById("good-ans").style.display="flex";
+    	document.getElementById("good-ans").style.display="block";
     }
     else {
         document.getElementById("cont-vers").style.display="none";
-    	document.getElementById("wrong-ans").style.display="flex";
+    	document.getElementById("wrong-ans").style.display="block";
         document.getElementById("ans").innerHTML = authorArray[operaIndex][grade][randomNum].r;
     }
 

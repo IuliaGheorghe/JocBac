@@ -680,7 +680,7 @@ function verif(){
     if(ok===0) {
       document.getElementById("cont-vers").style.display="none";
       document.getElementById("time-out").style.display="none";
-      document.getElementById("good-ans").style.display="flex";
+      document.getElementById("good-ans").style.display="block";
 
       if(questions===0)
          document.getElementsByClassName("newgame")[0].innerHTML = "Finalizează";
@@ -691,8 +691,8 @@ function verif(){
     }
     else {
         document.getElementById("cont-vers").style.display="none";
-        document.getElementById("time-out").style.display="none";
-      document.getElementById("wrong-ans").style.display="flex";
+        document.getElementById("time-out").style.display="block";
+      document.getElementById("wrong-ans").style.display="block";
       if(questions===0)
          document.getElementsByClassName("newgame")[1].innerHTML = "Finalizează";
       console.log(userAnswersCopie);
@@ -808,7 +808,7 @@ function startTimer(duration, display) {
             subverif();
             document.getElementById("cont-vers").style.display="none";
             if(document.getElementById("wrong-ans").style.display==="none")
-            {document.getElementById("time-out").style.display="flex";
+            {document.getElementById("time-out").style.display="block";
           if(questions===0)
          document.getElementsByClassName("newgame")[2].innerHTML = "Finalizează";
 
