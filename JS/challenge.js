@@ -571,9 +571,9 @@ function aleg(autor,opera,index){
 
   if(clicksOpera[index]===0)
     {
-      document.getElementsByClassName("card")[index].style.backgroundColor = "darkorchid";
-      document.getElementsByClassName("opera")[index].style.color = "white";
-      document.getElementsByClassName("author")[index].style.color = "white";
+      document.getElementsByClassName("card")[index].style.backgroundColor = "gold";
+      document.getElementsByClassName("opera")[index].style.color = "black";
+      document.getElementsByClassName("author")[index].style.color = "black";
         clicksOpera[index]++;
 }
 
