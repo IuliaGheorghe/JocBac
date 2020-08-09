@@ -691,7 +691,7 @@ function verif(){
     }
     else {
         document.getElementById("cont-vers").style.display="none";
-        document.getElementById("time-out").style.display="block";
+        document.getElementById("time-out").style.display="none";
       document.getElementById("wrong-ans").style.display="block";
       if(questions===0)
          document.getElementsByClassName("newgame")[1].innerHTML = "Finalizează";
