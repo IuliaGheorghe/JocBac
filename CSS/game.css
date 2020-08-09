@@ -58,7 +58,7 @@ input[type=text]::placeholder{
 
 
 #good-ans, #wrong-ans, #time-out{
-    padding: 80px;
+    padding: 80px 20px;
 	text-align: center;
 	display: block;
 	height: 100vh;
@@ -104,6 +104,6 @@ input[type=text]::placeholder{
 		width: 70vw;
 	}
 	#good-ans button, #wrong-ans button, #time-out button{
-		margin: 5px;
+		margin: 25px;
 	}
 }
