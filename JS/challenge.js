@@ -559,10 +559,10 @@ let options =[
  let questions=10;
 
  for (let i=0;i<document.getElementsByClassName("card").length;i++)
- 	{
- 		opereArr[i] = "none";
- 		clicksOpera[i] = 0;
- 	}
+  {
+    opereArr[i] = "none";
+    clicksOpera[i] = 0;
+  }
 
 
 function aleg(autor,opera,index){
@@ -570,14 +570,14 @@ function aleg(autor,opera,index){
   opereArr[index]=opera;
 
   if(clicksOpera[index]===0)
-  	{
-  		document.getElementsByClassName("card")[index].style.backgroundColor = "darkorchid";
+    {
+      document.getElementsByClassName("card")[index].style.backgroundColor = "darkorchid";
       document.getElementsByClassName("opera")[index].style.color = "white";
       document.getElementsByClassName("author")[index].style.color = "white";
         clicksOpera[index]++;
 }
 
-  	
+    
   else
     {
         document.getElementsByClassName("card")[index].style.backgroundColor = "#fff";
@@ -591,11 +591,11 @@ function aleg(autor,opera,index){
 
 
 function inputText(){
-	let arrLength = options[randomNumber][randomNum].raspuns.length;
-	if(arrLength>1)
-	{
-	document.getElementsByClassName("raspuns")[0].placeholder="Raspunsul 1";
-	for(let i=1;i<arrLength;i++){
+  let arrLength = options[randomNumber][randomNum].raspuns.length;
+  if(arrLength>1)
+  {
+  document.getElementsByClassName("raspuns")[0].placeholder="Raspunsul 1";
+  for(let i=1;i<arrLength;i++){
     let clone = document.getElementsByClassName("raspuns")[i-1].cloneNode( true );
     let num = (i+1).toString();
     document.getElementById('raspunsuri').appendChild( clone );
@@ -605,66 +605,66 @@ function inputText(){
 }
 
 function diacritice(strAccents) {
-		var strAccents = strAccents.split('');
-		var strAccentsOut = new Array();
-		var strAccentsLen = strAccents.length;
-		var accents = 'ăâîșțţşÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
-		var accentsOut = "aaisttsAAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
-		for (var y = 0; y < strAccentsLen; y++) {
-			if (accents.indexOf(strAccents[y]) != -1) {
-				strAccentsOut[y] = accentsOut.substr(accents.indexOf(strAccents[y]), 1);
-			} else
-				strAccentsOut[y] = strAccents[y];
-		}
-		strAccentsOut = strAccentsOut.join('');
-		return strAccentsOut;
-	}
+    var strAccents = strAccents.split('');
+    var strAccentsOut = new Array();
+    var strAccentsLen = strAccents.length;
+    var accents = 'ăâîșțţşÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+    var accentsOut = "aaisttsAAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+    for (var y = 0; y < strAccentsLen; y++) {
+      if (accents.indexOf(strAccents[y]) != -1) {
+        strAccentsOut[y] = accentsOut.substr(accents.indexOf(strAccents[y]), 1);
+      } else
+        strAccentsOut[y] = strAccents[y];
+    }
+    strAccentsOut = strAccentsOut.join('');
+    return strAccentsOut;
+  }
 
 let ok = 0;
 
 let userAnswersCopie = [];
 
 function subverif(){
-	let userAnswers =[];
+  let userAnswers =[];
 
-	let arrLength = options[randomNumber][randomNum].raspuns.length;
+  let arrLength = options[randomNumber][randomNum].raspuns.length;
 
-	possibleScore+=arrLength*5;
+  possibleScore+=arrLength*5;
 
-	for(let i=0;i<arrLength;i++)
-		userAnswers[i]="NULL";
+  for(let i=0;i<arrLength;i++)
+    userAnswers[i]="NULL";
    
 
     for(let i=0;i<arrLength;i++){
 
-    	let a;
-    	a=document.getElementsByClassName("raspuns")[i].value;
+      let a;
+      a=document.getElementsByClassName("raspuns")[i].value;
 
-    	a = a.toLowerCase();
-		a = a.replace(/\s/g,'');
-		a = a.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
-		a = diacritice(a);
+      a = a.toLowerCase();
+    a = a.replace(/\s/g,'');
+    a = a.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+    a = diacritice(a);
         
         if (a==="")
         userAnswers[i] = ((i+1) +". " + "NULL"+ ",").toString();
         else
-		userAnswers[i] = ((i+1) +". " + a+ ",").toString();
+    userAnswers[i] = ((i+1) +". " + a+ ",").toString();
 
-		let b;
-
-
-		b=options[randomNumber][randomNum].raspuns[i];
-
-		b = b.toLowerCase();
-		b = b.replace(/\s/g,'');
-		b = b.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
-		b = diacritice(b);
+    let b;
 
 
-    	if(a !== b) ok++;
-    	if(a===b) score+=5;
+    b=options[randomNumber][randomNum].raspuns[i];
 
-    	console.log(userAnswers);
+    b = b.toLowerCase();
+    b = b.replace(/\s/g,'');
+    b = b.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+    b = diacritice(b);
+
+
+      if(a !== b) ok++;
+      if(a===b) score+=5;
+
+      console.log(userAnswers);
         
         userAnswersCopie=userAnswers;
 
@@ -678,27 +678,27 @@ function verif(){
     subverif();
     
     if(ok===0) {
-    	document.getElementById("cont-vers").style.display="none";
-    	document.getElementById("time-out").style.display="none";
-    	document.getElementById("good-ans").style.display="flex";
+      document.getElementById("cont-vers").style.display="none";
+      document.getElementById("time-out").style.display="none";
+      document.getElementById("good-ans").style.display="flex";
 
       if(questions===0)
          document.getElementsByClassName("newgame")[0].innerHTML = "Finalizează";
 
 
         console.log(score);
-    	document.getElementsByClassName("scor")[0].innerHTML ="Scor: " + score + " puncte";
+      document.getElementsByClassName("scor")[0].innerHTML ="Scor: " + score + " puncte";
     }
     else {
         document.getElementById("cont-vers").style.display="none";
         document.getElementById("time-out").style.display="none";
-    	document.getElementById("wrong-ans").style.display="flex";
+      document.getElementById("wrong-ans").style.display="flex";
       if(questions===0)
          document.getElementsByClassName("newgame")[1].innerHTML = "Finalizează";
-    	console.log(userAnswersCopie);
-    	document.getElementsByClassName("user-ans")[0].innerHTML = "Răspunsurile tale: <br><br>" +userAnswersCopie.join(" ");
-    	console.log(score);
-    	document.getElementsByClassName("scor")[1].innerHTML ="Scor: " + score + " puncte";
+      console.log(userAnswersCopie);
+      document.getElementsByClassName("user-ans")[0].innerHTML = "Răspunsurile tale: <br><br>" +userAnswersCopie.join(" ");
+      console.log(score);
+      document.getElementsByClassName("scor")[1].innerHTML ="Scor: " + score + " puncte";
         document.getElementById("ans").innerHTML = options[randomNumber][randomNum].r;
 
     }
@@ -708,66 +708,66 @@ function verif(){
 const removeElements = (elms) => elms.forEach(el => el.remove());
 
 function newGame(){
-	if(questions>0)
+  if(questions>0)
 
-	{document.getElementsByClassName("raspuns")[0].value="";
-		let clone = document.getElementsByClassName("raspuns")[0].cloneNode( true );
-	
-		removeElements( document.querySelectorAll(".raspuns") );
-		    document.getElementById('raspunsuri').appendChild( clone );
-	
-		ok=0;
-		document.getElementById("good-ans").style.display="none";
-		document.getElementById("wrong-ans").style.display="none";
-		let arrLength = options[randomNumber][randomNum].raspuns.length;
-		display();
-	
-		document.getElementById("cont-vers").style.display="flex";}
-		else showScore();
+  {document.getElementsByClassName("raspuns")[0].value="";
+    let clone = document.getElementsByClassName("raspuns")[0].cloneNode( true );
+  
+    removeElements( document.querySelectorAll(".raspuns") );
+        document.getElementById('raspunsuri').appendChild( clone );
+  
+    ok=0;
+    document.getElementById("good-ans").style.display="none";
+    document.getElementById("wrong-ans").style.display="none";
+    let arrLength = options[randomNumber][randomNum].raspuns.length;
+    display();
+  
+    document.getElementById("cont-vers").style.display="flex";}
+    else showScore();
 
 }
 
 function showScore(){
-	document.getElementById("cont-vers").style.display="none";
-	document.getElementById("wrong-ans").style.display="none";
-	document.getElementById("good-ans").style.display="none";
-	document.getElementById("time-out").style.display="none";
-	document.getElementById("user-result").style.display="flex";
+  document.getElementById("cont-vers").style.display="none";
+  document.getElementById("wrong-ans").style.display="none";
+  document.getElementById("good-ans").style.display="none";
+  document.getElementById("time-out").style.display="none";
+  document.getElementById("user-result").style.display="flex";
 
-	document.getElementById("user-score").innerHTML = score;
-	console.log(score);
-	console.log(possibleScore);
-	console.log(typeof score);
-	console.log(typeof possibleScore);
-	console.log(score === possibleScore);
-	console.log(possibleScore-30);
-	console.log(score < possibleScore-30);
-	if(score===possibleScore) {
-		document.getElementById("first").style.display="flex";
-		document.getElementById("second").style.display="none";
-		document.getElementById("third").style.display="none";
-		document.getElementById("love").style.display="none";
-
-}
-	else if((score>=possibleScore-20) && (score<possibleScore) ) {
-		document.getElementById("first").style.display="none";
-		document.getElementById("second").style.display="flex";
-		document.getElementById("third").style.display="none";
-		document.getElementById("love").style.display="none";
+  document.getElementById("user-score").innerHTML = score;
+  console.log(score);
+  console.log(possibleScore);
+  console.log(typeof score);
+  console.log(typeof possibleScore);
+  console.log(score === possibleScore);
+  console.log(possibleScore-30);
+  console.log(score < possibleScore-30);
+  if(score===possibleScore) {
+    document.getElementById("first").style.display="flex";
+    document.getElementById("second").style.display="none";
+    document.getElementById("third").style.display="none";
+    document.getElementById("love").style.display="none";
 
 }
-	else if((score>=possibleScore-30) && (score<possibleScore-20) ) {
-		document.getElementById("first").style.display="none";
-		document.getElementById("second").style.display="none";
-		document.getElementById("third").style.display="flex";
-		document.getElementById("love").style.display="none";
+  else if((score>=possibleScore-20) && (score<possibleScore) ) {
+    document.getElementById("first").style.display="none";
+    document.getElementById("second").style.display="flex";
+    document.getElementById("third").style.display="none";
+    document.getElementById("love").style.display="none";
 
 }
-	else if((score<possibleScore-30)){
-		document.getElementById("first").style.display="none";
-		document.getElementById("second").style.display="none";
-		document.getElementById("third").style.display="none";
-		document.getElementById("love").style.display="flex";
+  else if((score>=possibleScore-30) && (score<possibleScore-20) ) {
+    document.getElementById("first").style.display="none";
+    document.getElementById("second").style.display="none";
+    document.getElementById("third").style.display="flex";
+    document.getElementById("love").style.display="none";
+
+}
+  else if((score<possibleScore-30)){
+    document.getElementById("first").style.display="none";
+    document.getElementById("second").style.display="none";
+    document.getElementById("third").style.display="none";
+    document.getElementById("love").style.display="flex";
 
 }
 
@@ -781,7 +781,7 @@ displayVar = document.querySelector('#time');
 function startTimer(duration, display) {
         let oktime=0;
         var timer = duration, minutes, seconds;
-	    
+      
 
         let timp = setInterval(function () {
 
@@ -822,25 +822,29 @@ function startTimer(duration, display) {
 }
 
 function display(){
-	console.log(opereSelectate);
-	if(questions!==0)
-	{	
-		document.getElementById("wrong-ans").style.display="none";
-		document.getElementById("good-ans").style.display="none";
-		document.getElementById("time-out").style.display="none";
-	    randomNumber = Math.floor(Math.random() * opereSelectate.length);
-	    randomNumber=opereSelectate[randomNumber];
-	    console.log(randomNumber);
-	    randomNum = Math.floor(Math.random() * options[randomNumber].length);
-	    console.log(randomNumber);
-	    console.log(options[randomNumber][randomNum]);
-	    document.getElementById("versuri").innerHTML = options[randomNumber][randomNum].versuri;
-	    inputText();
-	    
+  console.log(opereSelectate);
+  if(questions!==0)
+  { 
+    document.getElementById("wrong-ans").style.display="none";
+    document.getElementById("good-ans").style.display="none";
+    document.getElementById("time-out").style.display="none";
+      randomNumber = Math.floor(Math.random() * opereSelectate.length);
+      randomNumber = opereSelectate[randomNumber];
+      console.log(randomNumber);
+      
+    randomNum = currentIndexes[randomNumber]++;
+
+    console.log(currentIndexes);
+    console.log(randomNum);
+
+      console.log(options[randomNumber][randomNum]);
+      document.getElementById("versuri").innerHTML = options[randomNumber][randomNum].versuri;
+      inputText();
+      
         startTimer(fiveMinutes, displayVar);
-	    questions--;}
-	    else 
-	    
+      questions--;}
+      else 
+      
       {
        
         showScore();
@@ -849,24 +853,49 @@ function display(){
    
 }
 
+let currentIndexes = [];
+
+function randomize(textIndex)
+{
+  let rand = 0;
+  let length = options[textIndex].length;
+
+  for (let i = 0; i < length; i++)
+  {
+    rand = Math.floor(Math.random() * Math.floor(length));
+
+    let temp = options[textIndex][i];
+    options[textIndex][i] = options[textIndex][rand];
+    options[textIndex][rand] = temp;
+  }
+}
+
 
 let opereSelectate = [];
 
-
-
 function startChallenge(){
-	let contor =0;
-	for(let i=0;i<opereArr.length;i++)
-		if(opereArr[i]!=="none") contor++;
-	console.log(opereArr);
+  let contor =0;
+  for(let i=0;i<opereArr.length;i++)
+    if(opereArr[i]!=="none") contor++;
+  console.log(opereArr);
     
     if(contor<3) alert("Nu ai ales 3 opere!")
-    	else 
+      else 
     {
+    for (let i = 0; i < options.length; i++)
+      currentIndexes[i] = 0;
+
+    for (let i = 0; i < opereArr.length; i++)
+    {
+      if (opereArr[i] !== "none")
+      {
+        randomize(i);
+      }
+    }
 
        let j=0;
        for(let i=0;i<opereArr.length;i++)
-       	if(opereArr[i]!=="none") {opereSelectate[j] = i; j++;}
+    if(opereArr[i]!=="none") {opereSelectate[j] = i; j++;}
 
        document.getElementById("cont-opera").style.display="none";
        document.getElementById("cont-vers").style.display="flex";
